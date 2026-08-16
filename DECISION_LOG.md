@@ -2,8 +2,8 @@
 title: Decision Log
 layer: project-governance
 status: stable
-version: 0.1.6
-updated: 2026-08-12
+version: 0.2.7
+updated: 2026-08-16
 ---
 
 # Decision Log
@@ -152,6 +152,8 @@ updated: 2026-08-12
 
 ## D-015 · 公共必要性认定、公共组织与维护责任、个人公共义务分层
 
+> **现行术语注记（v0.2.1）：** 以下保留 `D-015` 当时的三层原始确认。`D-018` 已将旧第三层“个人公共义务”拆为“有限互惠公共责任”与“具体公共责任任务义务”，所以现行分析展示为四个判断；不得自动跳转的边界不变。
+
 - 状态：Accepted
 - 日期：2026-08-12
 - decision_owner：Project Aletheia project initiator
@@ -214,6 +216,8 @@ updated: 2026-08-12
 
 ## D-018 · 基本保障、有限互惠公共责任与互惠性公共运行权益分层
 
+> **现行术语注记（v0.2.1）：** `D-018` 对 `D-015` 的旧第三层作内部拆分，因此当前统一使用公共必要性认定、公共组织与维护责任、有限互惠公共责任、具体公共责任任务义务四个判断。
+
 - 状态：Accepted
 - 日期：2026-08-12
 - decision_owner：Project Aletheia project initiator
@@ -235,6 +239,132 @@ updated: 2026-08-12
 - 理由：把不可取消的人格与保障底线、有边界的成员互惠责任、具体任务程序和非基本公共协作权益分开，既避免把公共服务成本永久外包给承担者，也避免用生存资格、人格污名或无限派工强迫合作。
 - 后果：`公共责任制度.md` 可由“责任是否存在”的问题稿转为承载已接受原则与开放机制的 `draft`；协调研究仍保持 `question`。任务生命周期须区分普通任务的邀请与承诺分支，以及公共责任任务经事项适配程序形成个案义务的分支；两者随后取得的都只是范围、期限和退出条件明确的有限授权。后续设计必须把正当理由、机构先行责任、公平分配、能力相关性、申诉与恢复写入任务和权益关联程序。
 - 未采用方案：固定公共责任工时；按年龄或能力抽签派工；责任积分、总诚信分或终身责任账本；以拒绝或未履责扣减基本保障或基本权利；能力池自动调度；用单一处罚替代正当理由、替代承担与申诉；从公共缺口直接生成个人任务。
+
+## D-019 · 接受 v0.2.0 四十四项架构与制度接口方向
+
+- 状态：Accepted
+- 日期：2026-08-13
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-A20F44`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：接受 `PROJECT_INITIATOR_CONFIRMATION_v0.2.0.md` 中 A1—H4 共 44 项作为当前研究或规范方向；不确认现实法律效力、实施参数或制度效果。
+- source_ids：`SRC-73475D63`、`SRC-7EBEDFD7`、`SRC-3A1F7903`、`SRC-2061DD36`、`SRC-4C7E9A12`
+- supersedes：把 v0.2.0 中“新增方向待项目发起者逐项确认”的状态更新为“方向已接受、实现仍待验证”；不取代 `D-018` 的保障和有限互惠责任边界。
+- affected_documents：Architecture Map、Module Dependency Graph、Open Problems List、权力转换审计模型、制度接口原则、宪制司法、授权任务型行政、公共财政、公共信息与 AI、激励制度、压力测试协议及根治理文件。
+- unresolved_questions：具体投票和修宪程序、法院组成、紧急期限、行政组织形式、预算与税制参数、数据访问等级、AI 技术方案、贡献回报参数及各机制的现实验证。
+- 背景：v0.2.0 从新制度对话中整理出 44 项可独立判断的方向命题，并明确区分项目接受、现实授权和经验验证。
+- 决定：44 项全部接受，成为 Aletheia 当前方向。项目进入术语回归、模块接口审计和压力测试阶段，暂不继续增加大模块或提前确定实施参数。
+- 理由：逐项确认消除了 AI 整理内容与项目发起者真实方向之间的归属不确定性，同时保留机制验证空间。
+- 后果：生成 v0.2.1；相关框架和制度文件继续保持 `draft`，开放问题和未验证实现保持 `question`；后续修改必须记录替代关系。
+- 未采用方案：把整段聊天自动视为作者确认；把方向接受等同于现实制度有效；立即编写完整法典、算法和数值参数。
+
+## D-020 · 接受职业开放、司法四层与生育婚姻亲职分离三十七项方向
+
+- 状态：Accepted
+- 日期：2026-08-15
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-C35F82`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：接受 `PROJECT_INITIATOR_CONFIRMATION_v0.2.2.md` 中 P1—P10、J1—J11、F1—F12、S1—S4 共 37 项作为当前研究或规范方向；不确认原 RTF 全文、具体参数、现实法律效力或制度效果。
+- source_ids：`SRC-9F4B2C71`、`SRC-1D6A8E43`
+- supersedes：不整体取代既有决定；细化 `D-014` 的能力与权限边界、`D-019` 的司法与制度接口方向，并为职业入口和家庭儿童专题新增已确认方向。
+- affected_documents：`GLOSSARY.md`、`03_Aletheia_Framework/第一原则.md`、`04_Institution_Design/Shared_Mechanisms/职业入口开放、能力分级与任务授权原则.md`、`04_Institution_Design/Constitutional_and_Legal_System/宪制与司法原则.md`、`04_Institution_Design/Constitutional_and_Legal_System/司法资格、岗位与案件授权分离机制.md`、`04_Institution_Design/Education_System/儿童公共照护与成长自主.md`、`04_Institution_Design/Education_System/生育、婚姻、亲职与儿童保障分离原则.md` 及治理、导航与发布文件。
+- unresolved_questions：资格标准、训练容量、岗位选择、任务记录、司法组织、随机分案、法院构成、刑罚、初始亲职、儿童参与、公共育幼、家庭介入、记录期限和全部实施参数。
+- 背景：用户进一步明确，所谓取消职业门槛是取消与专业能力和责任无关的身份、路径和人数限制；法院职能需要常设，但资格、岗位和案件权限必须分开。同时，用户从公共育幼讨论中提出生育与婚姻分离，并把物理人身安全置于最高保护层级。
+- 决定：接受三个专题压缩稿的 37 项方向。专业资格原则上不以岗位名额限量；岗位可以按真实需求有限；能力、资格、岗位、责任与授权分别成立。司法采用法院常设、资格开放、岗位有限、案件逐项授权的研究结构。每个人的生命、身体完整、性自主和现实人身安全进入最高保护层级，但刑事责任仍须分级和遵守证据程序。生育、婚姻、亲职与儿童权利分别处理，公共育幼分担照护压力而不取得儿童所有权。
+- 理由：这些方向把用户对名额垄断、职业身份权力、司法连续性、身体安全、婚姻生育绑定和儿童占有的担忧转化为与现行能力—资格—权限边界兼容的框架命题。
+- 后果：生成 v0.2.2；三份专题进入应用层 `draft`，具体等级、分数、刑罚、机构、记录和参数继续保持开放并须经过资料研究、受影响者参与和压力测试。
+- 未采用方案：能力直接产生权限；取得资格自动获得岗位；法官身份拥有全部案件；原始卷宗无条件公开；所有身体损害一律同刑；国家许可生育或拥有儿童；亲职总信用分；把原 RTF 全文自动升级为项目结论。
+
+## D-021 · 接受个人需求责任与共同脆弱性下的非等级互助原则
+
+- 状态：Accepted
+- 日期：2026-08-15
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-C49CCC`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：接受个人需求责任、共同脆弱性、非等级互助、跨时间传递、基本照护不作功劳结算和不制造感恩服从，作为当前规范方向；不确认具体照护机构、资源参数、互助积分或法律强制方式。
+- source_ids：`SRC-8D4F2B90`、`SRC-C49CCC9B`
+- supersedes：把 `D-014` 和现行责任模型中的“说明责任”扩展为更完整的个人需求责任；补充 `D-018` 的有限互惠公共责任为何不应建立在弱者等级、逐人功劳结算或感恩服从上，不取代基本保障与任务程序边界。
+- affected_documents：`GLOSSARY.md`、`03_Aletheia_Framework/第一原则.md`、`需求模型.md`、`责任模型.md`、`04_Institution_Design/Labor_System/公共责任制度.md`、`基本保障_有限公共责任_关键服务连续性协调研究.md` 及治理、来源和导航文件。
+- unresolved_questions：如何判断合理自助与真实渠道可及性；私人协作、公共服务和紧急救助如何分别响应；怎样承认照护与帮助贡献而不建立功劳等级；非家庭化、非强制的跨时间互助如何组织；关系性需要中公共制度能提供什么而不能强迫什么。
+- 背景：现行“说明责任”只要求请求协作时说明条件，未充分表达个人应在现实能力范围内积极参与解决自身需求。原对话同时提出，衰老、疾病、残障与失能是任何人可能进入的处境，帮助不应被叙述为高位者对低位者施舍，而应理解为共同体成员为自己与家人也可能需要的未来互助条件作出接续。
+- 决定：建立个人需求责任，包含合理自助、求助、维权、配合、减损和说明；其完成情况可以影响协作方式、响应顺序、替代和相称费用，但不取消表达、基本权利、基本保障与紧急救助，也不免除其他责任主体。建立共同脆弱性与非等级互助原则：帮助跨时间、对象和生命阶段传递，基本照护不作逐人功劳结算，贡献须被承认但不产生人格债务、永久还债或服从义务。
+- 理由：这使“个人不把可承担部分全部外包”与“社会不抛弃无法承担者”同时成立，并把帮助关系从固定强弱身份转为处境可变的平等互助；它也为有限互惠公共责任提供不依赖生存交换、功绩资格和弱者污名的价值基础。
+- 后果：生成 v0.2.3；第一原则新增共同脆弱性公理，需求与责任模型扩展个人需求责任，劳动模块补充非等级互助基础。后续须用医疗、劳动维权、残障支持、养老与长期照护案例检验可行自助、渠道障碍、机构责任和关系性需要边界。
+- 未采用方案：谁有需求谁独自承担全部责任；得不到帮助都归咎需求者；过去未贡献者失去基本照护；精确互助积分和终身功劳账本；强制情感感谢；接受帮助产生服从；把老人、病者和残障者固定为低等弱者；用个人需求责任免除侵害者或机构责任。
+
+## D-022 · 接受公共权力失效纠错与公共合作激励方向
+
+- 状态：Accepted
+- 日期：2026-08-15
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-7B4D2E`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：接受 `PROJECT_INITIATOR_CONFIRMATION_v0.2.4.md` 中 G-01—G-20、C-01—C-14 按建议状态成立；不确认原 RTF 与粘贴稿全文、实施参数、现实法律效力或效果。
+- source_ids：`SRC-5A8E1C42`、`SRC-B79D3F06`、`SRC-41C7A9D2`
+- supersedes：不整体取代既有决定；扩展 `D-014` 的权力限制与事实权力审计、`D-016` 的项目退出后修复责任、`D-019` 的司法行政财政和激励接口，并保持 `D-018` 的基本保障与有限公共责任边界。
+- affected_documents：`03_Aletheia_Framework/第一原则.md`、`责任模型.md`、`04_Institution_Design/Political_System/权力限制.md`、`民主决策.md`、`公共权力失效纠错机制.md`、`Administrative_System/授权任务型行政.md`、`Public_Finance/任务预算与公共资源.md`、`Constitutional_and_Legal_System/宪制与司法原则.md`、`Incentive_System/激励反等级原则.md`、`公共合作激励与参与保障.md` 及治理、来源、状态、路线图和发布文件。
+- unresolved_questions：调查与保全门槛、替代调查组成、证据托管技术与访问、基金规模和偿付、追偿时效与重新开始、利益增量计算、资产范围、参与成本参数及困难必要劳动的供给效果。
+- 背景：前轮审计发现，正常授权和监督原则尚不足以处理掌权者控制证据、监督机构被俘获、责任人无力赔偿和掌权者从错误项目获利；合作激励也需要说明合作为何对个人值得，同时保护拒绝、异议和举报。
+- 决定：建立公共权力失效纠错候选框架，使决定、证据、监督、修复和利益保持可相互纠错；建立公共合作激励与参与保障框架，以需求改善、时间、安全、服务、现实补偿、实际影响和反报复为核心，具体程序便利只复用限定事实，不形成综合信用。
+- 理由：制度不能只描述正常运行，还要在监督、赔偿和利益约束失效时具有恢复路径；合作也不能靠忠诚、基本保障条件化或人格等级维持。
+- 后果：生成 v0.2.4；新增两份 `draft`，同步责任、司法、政治、行政、财政和激励接口。五层纠错与困难劳动供给继续验证，不写成已完成制度。
+- 未采用方案：债务劳动；统一责任积分或补偿总分；综合可靠度或总诚信分；项目失败自动推定腐败；无限范围证据库、搜查、资产冻结或终身追责；让调查者按追回金额获利。
+
+## D-023 · 接受十环节权力集中控制矩阵方向
+
+- 状态：Accepted
+- 日期：2026-08-15
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-9C2F61`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：接受十环节、三级风险、组合触发、利益贯穿、质量与投诉独立及紧急退出方向；具体阈值、组织和效果保持 `draft`。
+- source_ids：`SRC-E4A91C72`
+- supersedes：不取代既有权力三分、授权封套和五层纠错；把 `D-022` 的“不得同时控制决定、证据、监督、修复和利益”展开为可审计环节与自动动作。
+- affected_documents：`GLOSSARY.md`、`03_Aletheia_Framework/权力模型.md`、`权力转换审计模型.md`、`04_Institution_Design/Political_System/权力限制.md`、`公共权力失效纠错机制.md`、`十环节权力集中控制矩阵.md`、`Administrative_System/授权任务型行政.md` 及治理、导航和发布文件。
+- unresolved_questions：不同风险和规模的触发线、关联控制网络证据、现场质量独立条件、外部审计组成、暂停权限、紧急例外、服务连续性和防止程序瘫痪。
+- 背景：项目已限制正式权限并建立失效纠错，但缺少一张把过程控制集中自动转化为回避、审计和拆分的统一矩阵；项目管理、信息、质量、投诉和监督可能在没有最高职位的情况下形成事实掌权节点。
+- 决定：对公共事项绘制十环节控制图，把重大利益作为贯穿层；高风险组合自动触发复核，三个及以上实质独立环节原则上触发外部审计和权限拆分，四个及以上或关键组合采用更强制纠偏。调查与裁判、执行与最终质量、执行与唯一投诉入口保持分离。
+- 理由：权力集中应按真实控制网络和流程节点识别，而不是只看正式职位或机构数量；自动动作使“原则上分离”具有可操作后果。
+- 后果：生成 v0.2.5；新增矩阵 `draft`，同步权力和行政接口。阈值不视为经验验证完成，也不形成权力或腐败总分。
+- 未采用方案：责任自动生成权限；按机构名称假定分权；正常工资自动构成腐败；调查者兼任高后果最终裁判；执行者最终自证；无限增设常设机构；紧急合并永久化。
+
+## D-024 · 用责任会计三分结构取代 C-13
+
+- 状态：Accepted
+- 日期：2026-08-15
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-6D2A8F`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：接受周期性基础责任账户、公共贡献履历与领域限定的专业可靠性档案三分结构，把反等级从拒绝衡量改为限制衡量结果的用途；不确认具体公式、周期、达标线、权益清单或后果参数。
+- source_ids：`SRC-6D2A8F31`
+- supersedes：正式取代 `D-022` 所确认的 v0.2.4 逐项表 `C-13` 中“删除责任积分，不以积分记录或激励合作”的全面禁止；不取代 `D-018` 的基本保障、具体任务程序和有限互惠责任边界，也不取代 `D-022` 对债务劳动、综合可靠度和总诚信分的拒绝。
+- affected_documents：`README.md`、`GLOSSARY.md`、`03_Aletheia_Framework/第一原则.md`、`责任模型.md`、`04_Institution_Design/Labor_System/公共责任制度.md`、`劳动制度白皮书.md`、`Incentive_System/激励反等级原则.md`、`公共合作激励与参与保障.md`、`责任积分、贡献积分与领域专业评价.md` 及治理、来源、导航和压力测试文件。
+- unresolved_questions：责任当量公式、结算周期、达标线、能力与照护调整、证据口径、公开范围、记录期限、补足程序、非基础互惠性公共运行权益的候选范围和未履责后果，以及刷分、定价权俘获、隐性负担漏算和关键服务覆盖失败。
+- 背景：v0.2.4 为防止等级化而全面删除责任积分，但也同时削弱了公平份额比较、反搭便车、普通贡献可见和专业协作的制度工具。
+- 决定：建立三类目的和数据边界不同的记录。周期性基础责任账户处理当期合理份额与负担结算；公共贡献履历记录可验证的日常与额外贡献；领域限定的专业可靠性档案支持特定领域的任务匹配和专业判断。三者不得合成公民总分。
+- 理由：公平不是不比较，而是在相同的责任成立、调整、豁免、折算和申诉规则下比较经调整的合理份额。一个制度需要可量化的责任会计和贡献可见性，但无需将人的整体价值标价。
+- 后果：生成 v0.2.6；新增三分结构 `draft`，同步术语、第一原则、责任、劳动、激励与压力测试。责任会计不替代关键服务供给规划，也不证明任何具体参数可行。
+- 未采用方案：无记录地依赖自发善意；统一终身责任或贡献总分；人格、忠诚或总诚信评分；积分购买基本保障或政治权力；专业声誉跨领域自动产生权威；仅凭未达标自动派工、公开羞辱或累加责任债务。
+
+## D-025 · 采用年度责任积分、领域累计贡献与专业参考摘要
+
+- 状态：Accepted
+- 日期：2026-08-16
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-A2D7F9`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：接受年度基础责任积分、按领域累计的贡献积分、领域质量评价和由证据生成的领域专业参考指数；接受日常维护与重大成果均进入记录；不确认具体数值、算法、权益清单或现实法律效力。
+- source_ids：`SRC-A2D7F914`、`SRC-CE7F7BC6`、`SRC-476C8C48`
+- supersedes：细化 `D-024`。保留责任、贡献和专业证据分账及限制用途，取代“不恢复任务系数”和“不允许任何累计贡献总量”的过宽限制；不恢复旧版固定参数、抽签、自动派工、总诚信分或人格等级。
+- affected_documents：`GLOSSARY.md`、`03_Aletheia_Framework/第一原则.md`、`04_Institution_Design/Labor_System/公共责任制度.md`、`Mechanisms/有限互惠公共责任机制.md`、`Incentive_System/责任积分、贡献积分与领域专业评价.md` 及治理、来源、导航和状态文件。
+- unresolved_questions：年度参考时数、个人额度调整、认可时间、任务系数维度与上下界、完成比例、领域分类、累计总量界面、质量算法、专业参考指数有效期、证据、隐私、补足、互惠性权益和未履责后果。
+- 背景：`D-024` 恢复了责任衡量，却仍把公式、任务系数和累计总量全部排除。项目发起者进一步明确，责任积分用于防搭便车，贡献积分用于使普通和重大贡献可见并引导公共价值，领域质量和专业参考用于把专业影响从财富、职位和流量转向实际证据。
+- 决定：年度基础责任采用普通条件参考额度，经个人现实能力和处境调整；具体任务按“认可时间 × 任务责任系数 × 完成比例”的结构结算并年度清零。已完成任务同时进入相应领域的长期贡献积分；贡献可以有累计总量入口，但必须同时展示领域构成、时间、质量和来源。领域质量按任务类型建立；领域专业参考指数只作相关证据摘要，不独立累计或生成权限。
+- 理由：同一分数无法同时处理当期公平、历史贡献、专业质量和快速认知。分账可以防搭便车并使持续维护可见，摘要层又满足普通人需要简单入口的现实，而用途限制防止衡量滑向生存资格、人格总分和跨领域统治权。
+- 后果：生成 v0.2.7；新增《有限互惠公共责任机制》并修正来源 RTF 中“取消责任积分”的冲突；《第一原则》增加评价与支配分离、自愿影响力和日常维护可见；现行激励文件升级为三套记录、四层功能。
+- 未采用方案：只有重大成果才记分；只记录失败而忽略长期正常维护；把实际耗时无限计分；以高贡献抵销伤害；仅凭未达标自动认定搭便车；声誉指数自动产生决定权或跨领域权威；把私人思想和全部生活选择纳入公共积分。
 
 ## 新增决定模板
 

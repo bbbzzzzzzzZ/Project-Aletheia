@@ -2,8 +2,8 @@
 title: Research Workbench
 layer: research
 status: stable
-version: 0.1.6
-updated: 2026-08-12
+version: 0.2.0
+updated: 2026-08-13
 ---
 
 # 08 · Research Workbench
@@ -31,8 +31,9 @@ DECISION_LOG.md（项目接受了什么决定、由谁确认）
 - [`03_Revision_Audits/`](03_Revision_Audits/)：白皮书冲突、修订和再核对过程。
 - [`04_Source_Extractions/`](04_Source_Extractions/)：从长对话中区分用户直接表述、AI 扩写、来源边界、排除项与当前路由。
 - [`05_Provenance_and_Decision_Records/`](05_Provenance_and_Decision_Records/)：Source ID、来源映射与项目内部方向决定确认记录。
+- [`06_Current_Round_Source_Notes/`](06_Current_Round_Source_Notes/)：2026-08-13 新制度对话与 RTF 的来源边界、采用项和当前路由。
 - [`IMPORT_MANIFEST.md`](IMPORT_MANIFEST.md)：本次导入文件、来源与当前替代入口。
 
 Source ID 和决定确认记录在语义冻结前建立；压缩包、最终哈希与发布校验在结构冻结后形成。项目决定确认不能冒充现实公共决策授权。
 
-当前 `v0.1.6` 方向确认见 [`05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md`](05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md) 中的 `PCR-5E7A91`；来源身份为 `SRC-D8C4F2A6`。
+`v0.2.0` 的新增材料先登记为来源与草案结构；其中 AI 扩展仍保持 `question` 或研究输入，不自动成为 Accepted 决定。
