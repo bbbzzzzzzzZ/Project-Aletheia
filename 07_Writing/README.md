@@ -1,9 +1,9 @@
 ---
 title: 对外写作与公众思想书
 layer: publication
-status: template
-version: 0.1.5
-updated: 2026-08-12
+status: draft
+version: 0.2.9
+updated: 2026-08-21
 ---
 
 # 07 · 对外写作
@@ -26,14 +26,16 @@ updated: 2026-08-12
 
 - **研究框架**位于 `00`—`03`，并由 `05`、`06`、`08` 提供证据、反例和来源审计；当前决定、术语和状态仍由根目录 `DECISION_LOG.md`、`GLOSSARY.md` 与 `DOCUMENT_STATUS.md` 管理；
 - **思想书**位于 [`Thought_Book/`](Thought_Book/)，保留作者能够确认的生活语言和问题生成过程；
-- **制度白皮书**的实质研究位于 [`../04_Institution_Design/`](../04_Institution_Design/)；本目录的 [`Project_Overview/`](Project_Overview/) 只负责形成三条轨道共用的简短项目总纲；
+- **制度白皮书**的当前综合入口是 [`../04_Institution_Design/Project_Aletheia_制度白皮书.md`](../04_Institution_Design/Project_Aletheia_制度白皮书.md)，下层模块与机制位于 [`../04_Institution_Design/`](../04_Institution_Design/)；本目录的 [`Project_Overview/`](Project_Overview/) 只负责三条轨道共用的简短项目总纲；
 - 平台稿可以派生自以上任一成果，但必须说明来源，不能成为新的定义入口。
 
 ## 共同发布门槛
 
 - 明确区分项目主张、工作假设和开放问题；
+- 对外统一使用项目总纲维护的同一套 `5–7` 条普通语言核心命题；各渠道可以更换例子和叙述顺序，但不得另建平行的“核心原则”“公理”或总纲清单；
 - 不用哲学家、历史必然或“真正需求”替代论证；
 - 不把劳动制度等应用层写成整个 Aletheia；
+- 积分、公式、控制矩阵、模型编号和内部分类名称只链接机制或研究文件，不在公众正文展开；需要说明时只用生活语言解释其问题与边界；
 - 不把具体时长、比例、算法或知识收益期限写成已定方案；
 - 历史、科学和现实案例完成事实核查与来源标注；
 - 公开最强反对意见和项目当前缺口。
@@ -53,3 +55,8 @@ updated: 2026-08-12
 - [`LessWrong版/`](LessWrong版/README.md)：面向理性主义与机制讨论语境的版本；
 - [`V2EX讨论版/`](V2EX讨论版/README.md)：面向问题讨论与反馈收集的版本；
 - [`公众号文章/`](公众号文章/README.md)：面向中文公众传播的文章及其来源边界。
+- [`External_Discussion/`](External_Discussion/README.md)：明确标注为探索稿、以收集反例为目的的平台中立候选稿；公开反馈进入验证登记，不直接修改项目结论。
+
+## 外部反馈回写
+
+所有探索稿的发布版本、平台链接与可判断反馈统一登记在 [`EXTERNAL_FEEDBACK_REGISTRY.md`](../08_Research_Workbench/07_Validation_Records/EXTERNAL_FEEDBACK_REGISTRY.md)。没有公开链接时只可写“待发布”；没有实质反馈时不得把验证状态升级为 `in-validation`。

@@ -2,7 +2,7 @@
 title: Contributing
 layer: project-governance
 status: stable
-version: 0.1.5
+version: 0.2.8
 updated: 2026-08-12
 ---
 
@@ -34,6 +34,12 @@ updated: YYYY-MM-DD
 - 下一步需要什么证据或决定。
 
 frontmatter 中的 `version` 表示该文件最后一次发生实质内容变更时的项目版本，不要求包内所有未修改文件机械改成同一版本。
+
+## 成熟度与验证进度分离
+
+frontmatter 的 `status` 只说明文档是否已有命题及其当前引用资格，不说明命题是否经过现实验证。需要历史案例、外部证据、受影响者复核、专业评估、原型或试验的事项，在 [`DOCUMENT_STATUS.md`](DOCUMENT_STATUS.md) 另行登记验证状态。
+
+验证状态不得机械写入全部文件，也不得由 `draft`、`question` 或 `stable` 自动推导。登记时至少记录：验证对象、当前验证状态、仍缺的不可替代输入、当前阻断原因和下一步可执行动作。项目内部一致性检查、AI 审阅和项目发起者确认均不能冒充受影响者参与、历史证据或现实制度效果。
 
 ## 根治理文件的权威分工
 

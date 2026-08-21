@@ -2,8 +2,8 @@
 title: Imported Work Manifest
 layer: research
 status: stable
-version: 0.2.0
-updated: 2026-08-13
+version: 0.2.9
+updated: 2026-08-17
 ---
 
 # 已导入工作文件清单
@@ -38,7 +38,7 @@ updated: 2026-08-13
 | `劳动与经济制度设计_再核对笔记` | `03_Revision_Audits/` | 历史再核对记录，含已过时的“当前确认”与参数措辞 | 当前劳动与经济模块及文首过时警告 |
 | `尼采奴隶道德的批判 (1)` 提取记录 | `04_Source_Extractions/` | 未核查对话的去私人化命题提取 | [`../01_Philosophy/从奴隶道德到价值定义权.md`](../01_Philosophy/从奴隶道德到价值定义权.md) |
 | `理解思考方式的客观描述` 提取记录 | `04_Source_Extractions/` | 混合来源对话的方法与责任提取 | [`../03_Aletheia_Framework/研究与推理方法.md`](../03_Aletheia_Framework/研究与推理方法.md) 与 [`../03_Aletheia_Framework/责任模型.md`](../03_Aletheia_Framework/责任模型.md) |
-| `提高文章可读性 (1)` 提取记录 | `04_Source_Extractions/` | 项目起源、作者语言与 AI 扩写边界 | [`../03_Aletheia_Framework/世界观与制度生成语法.md`](../03_Aletheia_Framework/世界观与制度生成语法.md)、[`../02_Human_Nature/开放主体模型.md`](../02_Human_Nature/开放主体模型.md) 与 [`../07_Writing/Thought_Book/README.md`](../07_Writing/Thought_Book/README.md) |
+| `提高文章可读性 (1)` 提取记录 | `04_Source_Extractions/` | 项目起源、作者语言与 AI 扩写边界 | 用户直接世界观方向进入 [`../03_Aletheia_Framework/世界观.md`](../03_Aletheia_Framework/世界观.md)；后续制度结构确认进入 [`../03_Aletheia_Framework/制度生成语法.md`](../03_Aletheia_Framework/制度生成语法.md)；另见 [`../02_Human_Nature/开放主体模型.md`](../02_Human_Nature/开放主体模型.md) 与 [`../07_Writing/Thought_Book/README.md`](../07_Writing/Thought_Book/README.md) |
 | `大脑与意义感丧失` 提取记录 | `04_Source_Extractions/` | 意义、评价、实际激励、教育、劳动与主体社区问题的混合来源记录 | [`../01_Philosophy/存在与自我.md`](../01_Philosophy/存在与自我.md)、[`../02_Human_Nature/欲望形成机制.md`](../02_Human_Nature/欲望形成机制.md)、[`../03_Aletheia_Framework/资源模型.md`](../03_Aletheia_Framework/资源模型.md)、[`../03_Aletheia_Framework/决策模型.md`](../03_Aletheia_Framework/决策模型.md)、[`../04_Institution_Design/Education_System/`](../04_Institution_Design/Education_System/)、[`../04_Institution_Design/Labor_System/`](../04_Institution_Design/Labor_System/) 与 [`../04_Institution_Design/Shared_Mechanisms/主体社区与城市渐进可达机制.md`](../04_Institution_Design/Shared_Mechanisms/主体社区与城市渐进可达机制.md) |
 | `劳动与经济制度设计 (1)` 来源结构提取记录 | `04_Source_Extractions/` | 初始劳动制度问题、AI 扩写、旧参数和当前路由的审计 | [`../04_Institution_Design/Labor_System/`](../04_Institution_Design/Labor_System/)、[`../04_Institution_Design/Labor_System/Mechanisms/公共服务连续性与储备机制.md`](../04_Institution_Design/Labor_System/Mechanisms/公共服务连续性与储备机制.md) 与 [`../06_Criticism_and_Failure/劳动任务系统压力测试.md`](../06_Criticism_and_Failure/劳动任务系统压力测试.md) |
 | `采集社会的分裂和融合` 提取记录 | `04_Source_Extractions/` | 无角色标记的退出、融合、空间和照护问题来源 | [`../04_Institution_Design/Shared_Mechanisms/主体社区与城市渐进可达机制.md`](../04_Institution_Design/Shared_Mechanisms/主体社区与城市渐进可达机制.md) 与 [`../04_Institution_Design/Education_System/儿童公共照护与成长自主.md`](../04_Institution_Design/Education_System/儿童公共照护与成长自主.md) |
