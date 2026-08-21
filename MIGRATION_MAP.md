@@ -2,8 +2,8 @@
 title: Migration Map
 layer: project-governance
 status: stable
-version: 0.2.7
-updated: 2026-08-16
+version: 0.2.9
+updated: 2026-08-21
 ---
 
 # Migration Map
@@ -12,15 +12,15 @@ updated: 2026-08-16
 
 | 既有材料 / 主题 | 新位置 | 处理方式 |
 |---|---|---|
-| 《社会制度白皮书：框架版》 | [`99_Archive/Pre_Root_Restructure/2026-08-10/社会制度白皮书_框架版.md`](99_Archive/Pre_Root_Restructure/2026-08-10/社会制度白皮书_框架版.md) 与 [`04_Institution_Design/`](04_Institution_Design/) | 完整旧总纲已归档；各制度问题拆入应用层 |
+| 《社会制度白皮书：框架版》 | 历史快照见 [`99_Archive/Pre_Root_Restructure/2026-08-10/社会制度白皮书_框架版.md`](99_Archive/Pre_Root_Restructure/2026-08-10/社会制度白皮书_框架版.md)；当前综合入口见 [`04_Institution_Design/Project_Aletheia_制度白皮书.md`](04_Institution_Design/Project_Aletheia_制度白皮书.md) | 完整旧总纲继续归档；新白皮书从现行框架重新综合各模块，不恢复旧参数、旧结论或原文 |
 | 核心概念既有定义整理 | [`08_Research_Workbench/02_Legacy_Baseline_Audit/核心概念既有定义整理_2026-08-08.md`](08_Research_Workbench/02_Legacy_Baseline_Audit/核心概念既有定义整理_2026-08-08.md) 与 [`GLOSSARY.md`](GLOSSARY.md) | 旧多版本定义作为证据库；现行术语只从 GLOSSARY 引用 |
 | 五张制度机制表 | [`04_Institution_Design/Shared_Mechanisms/五张制度机制表_候选稿.md`](04_Institution_Design/Shared_Mechanisms/五张制度机制表_候选稿.md) | 作为 `archive / superseded` 机制快照保留；参数和旧状态不进入当前基线 |
 | 制度议题状态提取表 | [`08_Research_Workbench/02_Legacy_Baseline_Audit/制度议题状态提取表_2026-08-08.md`](08_Research_Workbench/02_Legacy_Baseline_Audit/制度议题状态提取表_2026-08-08.md) 与 [`DOCUMENT_STATUS.md`](DOCUMENT_STATUS.md) | 旧状态作为快照；当前成熟度只从 DOCUMENT_STATUS 引用 |
 | 对话资料索引与旧优先级 | [`08_Research_Workbench/01_Source_and_Priority_Maps/`](08_Research_Workbench/01_Source_and_Priority_Maps/) | 保留旧资料入口；当前工作顺序以 ROADMAP 为准 |
-| 白皮书冲突、对照修订与新增内容提取 | [`08_Research_Workbench/03_Revision_Audits/`](08_Research_Workbench/03_Revision_Audits/) | 保存修订过程，不作为当前总稿 |
+| 白皮书冲突、对照修订与新增内容提取 | [`08_Research_Workbench/03_Revision_Audits/`](08_Research_Workbench/03_Revision_Audits/) | 保存修订过程，不作为当前总稿；当前综合只从项目级制度白皮书进入 |
 | “需求产生责任” | [`00_Core_Question/需求与责任.md`](00_Core_Question/需求与责任.md) 与 [`03_Aletheia_Framework/责任模型.md`](03_Aletheia_Framework/责任模型.md) | 从口号拆成责任生成条件和边界 |
 | 《理解思考方式的客观描述》 | [`03_Aletheia_Framework/研究与推理方法.md`](03_Aletheia_Framework/研究与推理方法.md)、[`03_Aletheia_Framework/责任模型.md`](03_Aletheia_Framework/责任模型.md) 与 [`08_Research_Workbench/04_Source_Extractions/理解思考方式的客观描述_提取笔记.md`](08_Research_Workbench/04_Source_Extractions/理解思考方式的客观描述_提取笔记.md) | 方法和责任分层进入当前草案；混合来源、排除项与未核查内容留在工作台 |
-| 《提高文章可读性 (1)》 | [`03_Aletheia_Framework/世界观与制度生成语法.md`](03_Aletheia_Framework/世界观与制度生成语法.md)、[`02_Human_Nature/开放主体模型.md`](02_Human_Nature/开放主体模型.md)、[`04_Institution_Design/Education_System/生命周期教育.md`](04_Institution_Design/Education_System/生命周期教育.md) 与 [`08_Research_Workbench/04_Source_Extractions/提高文章可读性_项目起源提取笔记.md`](08_Research_Workbench/04_Source_Extractions/提高文章可读性_项目起源提取笔记.md) | 用户直接方向进入当前草案；AI 书稿、体系扩写和未核查事实不升级为基线；作者语言边界进入写作纪律 |
+| 《提高文章可读性 (1)》 | [`03_Aletheia_Framework/世界观.md`](03_Aletheia_Framework/世界观.md)、[`03_Aletheia_Framework/制度生成语法.md`](03_Aletheia_Framework/制度生成语法.md)、[`02_Human_Nature/开放主体模型.md`](02_Human_Nature/开放主体模型.md)、[`04_Institution_Design/Education_System/生命周期教育.md`](04_Institution_Design/Education_System/生命周期教育.md) 与 [`08_Research_Workbench/04_Source_Extractions/提高文章可读性_项目起源提取笔记.md`](08_Research_Workbench/04_Source_Extractions/提高文章可读性_项目起源提取笔记.md) | 用户直接提出的人与关系方向进入世界观；后续确认的任务与制度结构进入独立语法；AI 书稿、体系扩写和未核查事实不升级为基线 |
 | 《大脑与意义感丧失》 | [`01_Philosophy/存在与自我.md`](01_Philosophy/存在与自我.md)、[`02_Human_Nature/欲望形成机制.md`](02_Human_Nature/欲望形成机制.md)、[`03_Aletheia_Framework/资源模型.md`](03_Aletheia_Framework/资源模型.md)、[`03_Aletheia_Framework/决策模型.md`](03_Aletheia_Framework/决策模型.md)、[`04_Institution_Design/Education_System/`](04_Institution_Design/Education_System/)、[`04_Institution_Design/Labor_System/`](04_Institution_Design/Labor_System/)、[`04_Institution_Design/Shared_Mechanisms/主体社区与城市渐进可达机制.md`](04_Institution_Design/Shared_Mechanisms/主体社区与城市渐进可达机制.md) 与 [`08_Research_Workbench/04_Source_Extractions/大脑与意义感丧失_提取笔记.md`](08_Research_Workbench/04_Source_Extractions/大脑与意义感丧失_提取笔记.md) | 把意义、评价对象、宣称价值—实际激励、教育辨析、劳动时间、主体社区和救济—建设分配转为开放问题；义务交换、固定参数、私人材料、神经科学比喻、历史概括和 AI 心理推断不进入理论基线 |
 | 《劳动与经济制度设计 (1)》 | [`04_Institution_Design/Labor_System/`](04_Institution_Design/Labor_System/)、[`04_Institution_Design/Labor_System/Mechanisms/公共服务连续性与储备机制.md`](04_Institution_Design/Labor_System/Mechanisms/公共服务连续性与储备机制.md)、[`06_Criticism_and_Failure/劳动任务系统压力测试.md`](06_Criticism_and_Failure/劳动任务系统压力测试.md) 与 [`08_Research_Workbench/04_Source_Extractions/劳动与经济制度设计_来源结构提取笔记.md`](08_Research_Workbench/04_Source_Extractions/劳动与经济制度设计_来源结构提取笔记.md) | 已被现行原则吸收的方向只做追溯；连续性与反例进入草案；固定工时、惩罚、自动调度和 AI 完整方案不恢复为当前结论 |
 | 《尼采奴隶道德的批判 (1)》 | [`01_Philosophy/从奴隶道德到价值定义权.md`](01_Philosophy/从奴隶道德到价值定义权.md) 与 [`08_Research_Workbench/04_Source_Extractions/尼采奴隶道德的批判_提取笔记.md`](08_Research_Workbench/04_Source_Extractions/尼采奴隶道德的批判_提取笔记.md) | 从奴隶道德主题提取价值定义、代言、适应与计价问题；不把“价值定义权”归于尼采，也不把对话中的思想史和心理判断升级为基线 |
@@ -40,17 +40,25 @@ updated: 2026-08-16
 | 主奴、自我意识、劳动异化 | [`01_Philosophy/`](01_Philosophy/) 与 [`02_Human_Nature/身份与自我.md`](02_Human_Nature/身份与自我.md) | 作为对话资源，不作为未经论证的项目公理 |
 | 制度设计哲学 | [`03_Aletheia_Framework/`](03_Aletheia_Framework/) 与 [`06_Criticism_and_Failure/`](06_Criticism_and_Failure/) | 转化为可质疑的原则、模型和失败测试 |
 | “权力”笼统表述 | [`GLOSSARY.md`](GLOSSARY.md)、[`03_Aletheia_Framework/权力模型.md`](03_Aletheia_Framework/权力模型.md) 与 [`DECISION_LOG.md`](DECISION_LOG.md) `D-014` | 拆为包含程序资格的基本权利、显著或持续的非对称事实权力、经程序产生的授权权限 |
-| “公共责任”笼统表述 | [`03_Aletheia_Framework/责任模型.md`](03_Aletheia_Framework/责任模型.md)、[`04_Institution_Design/Labor_System/公共责任制度.md`](04_Institution_Design/Labor_System/公共责任制度.md)、`D-015` 与 `D-018` | 保留公共必要性认定、公共组织与维护责任、个人层责任不得自动跳转；个人层细化为已接受的有限互惠公共责任原则与仍须经程序形成的具体公共责任任务义务 |
-| 单线“需求—任务—制度—执行”流程 | [`03_Aletheia_Framework/世界观与制度生成语法.md`](03_Aletheia_Framework/世界观与制度生成语法.md) 与 `D-016` | 拆为任务生命周期和制度形成与修正循环；两者交换规则与证据但不互相代替授权 |
+| “公共责任”笼统表述 | [`03_Aletheia_Framework/需求归属与公共需求责任.md`](03_Aletheia_Framework/需求归属与公共需求责任.md)、[`03_Aletheia_Framework/责任模型.md`](03_Aletheia_Framework/责任模型.md)、[`04_Institution_Design/Labor_System/公共责任制度.md`](04_Institution_Design/Labor_System/公共责任制度.md)、`D-015`、`D-018` 与 `D-028` | 现行分为公共必要性、公共需求归属责任、公共组织与维护责任、有限互惠公共责任及具体任务义务；公共需求一经确认，公众第一责任随归属成立，但不自动确定组织形式、成员分担、具体任务或权限 |
+| 早期“提出需求的人就是第一责任人” | [`03_Aletheia_Framework/需求归属与公共需求责任.md`](03_Aletheia_Framework/需求归属与公共需求责任.md)、[`DECISION_LOG.md`](DECISION_LOG.md) `D-028` 与 [`2026-08-20_需求归属与公共需求责任来源确认.md`](08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-20_需求归属与公共需求责任来源确认.md) | 改为先判断需求归属主体：私人需求由个人先负责，公共需求成立后由公众先负责；需求体验、表达、组织与执行责任另行分账。归档原文保留为演化证据 |
+| 单线“需求—任务—制度—执行”流程 | [`03_Aletheia_Framework/制度生成语法.md`](03_Aletheia_Framework/制度生成语法.md) 与 `D-016` | 增加共同协调入口门槛，再拆为任务生命周期和制度形成与修正循环；两者交换规则与证据但不互相代替授权 |
+| 旧《世界观与制度生成语法》合并文件 | [`03_Aletheia_Framework/世界观.md`](03_Aletheia_Framework/世界观.md) 与 [`03_Aletheia_Framework/制度生成语法.md`](03_Aletheia_Framework/制度生成语法.md) | 人、关系、社会与制度的方向和程序语法分开；旧路径保留为 `archive` 迁移页，不再作为当前定义来源 |
 | 旧“基本保障—个人时间—连续性”专题路径 | [`04_Institution_Design/Labor_System/基本保障_有限公共责任_关键服务连续性协调研究.md`](04_Institution_Design/Labor_System/基本保障_有限公共责任_关键服务连续性协调研究.md) 与 [`06_Criticism_and_Failure/基本保障、有限公共责任与关键服务连续性压力测试.md`](06_Criticism_and_Failure/基本保障、有限公共责任与关键服务连续性压力测试.md) | 在 `0.1.6` 机械重命名并按 `D-018` 重定焦点；不保留重复旧路径。原则边界已接受，协调机制和参数仍开放 |
 | 本轮六步依赖链与确认 | [`08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md) | 记录项目内部决定主体、来源和确认范围；不冒充现实公共授权 |
 | 既有十二份来源提取记录 | [`08_Research_Workbench/05_Provenance_and_Decision_Records/SOURCE_REGISTRY.md`](08_Research_Workbench/05_Provenance_and_Decision_Records/SOURCE_REGISTRY.md) | 分配唯一 Source ID；缺失哈希保持 `not-recorded`，不提高证据等级 |
-| `D-015` 中“个人公共义务是否成立仍完全开放” | [`DECISION_LOG.md`](DECISION_LOG.md) `D-018`、[`GLOSSARY.md`](GLOSSARY.md) 与 [`08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md) `PCR-5E7A91` | 部分取代：确认有限互惠公共责任原则；保留旧三层不得自动跳转的边界。现行按四个判断展示：`D-018` 将旧第三层拆为原则责任与具体任务义务；具体工时、分配、记录、后果与权益清单仍属开放研究 |
+| `D-015` 中“个人公共义务是否成立仍完全开放” | [`DECISION_LOG.md`](DECISION_LOG.md) `D-018`、`D-028`、[`GLOSSARY.md`](GLOSSARY.md) 与 [`08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md) `PCR-5E7A91`、`PCR-A18D8A` | 部分取代：`D-018` 确认有限互惠原则并拆开具体任务，`D-028` 增加公共需求归属责任；旧三层不得自动跳转的边界继续保留。现行按五个判断展示；具体工时、分配、记录、后果与权益清单仍属开放研究 |
 | `3个专题草案.rtf` | [`04_Institution_Design/Shared_Mechanisms/职业入口开放、能力分级与任务授权原则.md`](04_Institution_Design/Shared_Mechanisms/职业入口开放、能力分级与任务授权原则.md)、[`04_Institution_Design/Constitutional_and_Legal_System/司法资格、岗位与案件授权分离机制.md`](04_Institution_Design/Constitutional_and_Legal_System/司法资格、岗位与案件授权分离机制.md)、[`04_Institution_Design/Education_System/生育、婚姻、亲职与儿童保障分离原则.md`](04_Institution_Design/Education_System/生育、婚姻、亲职与儿童保障分离原则.md) 与 [`08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-15_三个专题草案提取与确认.md`](08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-15_三个专题草案提取与确认.md) | 原 RTF 是用户方向与 AI 制度扩写混合稿；压缩后的 37 项经 `D-020` 确认，具体等级、评分字段、刑罚、机构和参数不升级 |
 | `掌权者漏洞治理.rtf` 与本轮纠错及合作激励粘贴稿 | [`04_Institution_Design/Political_System/公共权力失效纠错机制.md`](04_Institution_Design/Political_System/公共权力失效纠错机制.md)、[`04_Institution_Design/Incentive_System/公共合作激励与参与保障.md`](04_Institution_Design/Incentive_System/公共合作激励与参与保障.md) 与 [`08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-15_公共权力纠错与合作激励来源确认.md`](08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-15_公共权力纠错与合作激励来源确认.md) | AI-heavy 候选稿经 G/C 逐项表修订并由 `D-022` 确认；其中全面删除责任积分的 `C-13` 已由 `D-024` 取代。债务劳动、综合可靠度、自动腐败推定及未确认参数仍不升级 |
 | 责任积分取代与细化讨论 | [`04_Institution_Design/Incentive_System/责任积分、贡献积分与领域专业评价.md`](04_Institution_Design/Incentive_System/责任积分、贡献积分与领域专业评价.md)、[`PROJECT_INITIATOR_CONFIRMATION_v0.2.7.md`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_INITIATOR_CONFIRMATION_v0.2.7.md) 与 [`2026-08-16_责任积分与有限互惠公共责任机制整合.md`](08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-16_责任积分与有限互惠公共责任机制整合.md) | `D-024` 恢复分账衡量，`D-025` 进一步确认年度清零、任务当量结构、领域累计贡献、质量评价和专业参考摘要；具体参数和后果不升级 |
 | 有限互惠公共责任 RTF | [`04_Institution_Design/Labor_System/Mechanisms/有限互惠公共责任机制.md`](04_Institution_Design/Labor_System/Mechanisms/有限互惠公共责任机制.md) 与 [`2026-08-16_责任积分与有限互惠公共责任机制整合.md`](08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-16_责任积分与有限互惠公共责任机制整合.md) | 采用兼容的任务转换、机构先行、自愿不足、关系型任务和退出边界；不整篇升级法律条文、案例和“取消责任积分” |
 | 外部《第一原则.md》评审稿 | [`03_Aletheia_Framework/第一原则.md`](03_Aletheia_Framework/第一原则.md) 与 [`2026-08-16_责任积分与有限互惠公共责任机制整合.md`](08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-16_责任积分与有限互惠公共责任机制整合.md) | 与现行十一公理大体一致；不覆盖当前总纲，只吸收评价与支配分离、自愿影响力和日常维护可见边界 |
+| 只用 `draft/question/template` 表示所有未完成状态 | [`DOCUMENT_STATUS.md`](DOCUMENT_STATUS.md) 的成熟度与验证状态双维登记 | 保留原文档成熟度；另行区分未准备、可验证、缺参与者、验证中、部分验证与待复现 |
+| 权力、责任、决策模型分别阅读但缺少统一接口审计 | [`03_Aletheia_Framework/权力_责任_决策交叉一致性表.md`](03_Aletheia_Framework/权力_责任_决策交叉一致性表.md) | 交叉表只发现和路由冲突；术语和命题仍回到三个原模型修订 |
+| 宽泛“原始社会”案例入口 | [`05_Case_Studies/多贝朱霍安西_互惠网络与非正式权力.md`](05_Case_Studies/多贝朱霍安西_互惠网络与非正式权力.md) | 收窄为 1963—1975 年多贝地区的互惠、评价、非正式权力与退出条件；不代表全部早期或采集社会 |
+| 宽泛“社会主义实验”案例入口 | [`05_Case_Studies/蒙德拉贡法戈尔危机_合作所有权与成本分配.md`](05_Case_Studies/蒙德拉贡法戈尔危机_合作所有权与成本分配.md) | 收窄为 2008—2014 年特定合作社危机；不代表全部社会主义或合作社制度 |
+| 面向公开讨论但缺反馈回写 | [`07_Writing/External_Discussion/公共决定之后还缺哪三步.md`](07_Writing/External_Discussion/公共决定之后还缺哪三步.md) 与 [`08_Research_Workbench/07_Validation_Records/EXTERNAL_FEEDBACK_REGISTRY.md`](08_Research_Workbench/07_Validation_Records/EXTERNAL_FEEDBACK_REGISTRY.md) | 稿件与验证登记分离；没有真实链接和反馈时不写成已发布或验证中 |
+| 哲学目录要求一次性补完原典 | [`01_Philosophy/原典核查优先级.md`](01_Philosophy/原典核查优先级.md) | 按与第一原则的直接性、当前暴露和下游影响分批核查；哲学家不成为第一原则权威 |
 
 ## 迁移纪律
 

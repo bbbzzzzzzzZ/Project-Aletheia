@@ -2,8 +2,8 @@
 title: Source Registry
 layer: research
 status: stable
-version: 0.2.7
-updated: 2026-08-16
+version: 0.2.9
+updated: 2026-08-21
 ---
 
 # Source Registry
@@ -35,6 +35,24 @@ Source ID 是稳定、无语义的项目内部标识。它不编码作者、日�
 | `SRC-CE7F7BC6` | ai-review-markdown | 用户提供的《第一原则.md》十一公理评审稿 | [`../06_Current_Round_Source_Notes/2026-08-16_责任积分与有限互惠公共责任机制整合.md`](../06_Current_Round_Source_Notes/2026-08-16_责任积分与有限互惠公共责任机制整合.md) | `ce7f7bc6260e802f51249e51ade30e00313caa7ac385186272cca8bc8596cf42` | 与现行总纲比对，不整篇替换；只吸收经本轮确认且与当前结构兼容的边界 |
 | `SRC-476C8C48` | ai-heavy-rtf | 用户提供的《有限互惠公共责任机制草案 v0.1.rtf》及其照护、医疗场景扩写 | [`../06_Current_Round_Source_Notes/2026-08-16_责任积分与有限互惠公共责任机制整合.md`](../06_Current_Round_Source_Notes/2026-08-16_责任积分与有限互惠公共责任机制整合.md) | `476c8c48ec37c15f8189523bedb7370b7ec5d078dc45104aee67463a298de171` | 候选机制来源；法律化条文、案例、参数和“取消责任积分”不自动升级 |
 | `SRC-A2D7F914` | project-direction-and-confirmation | 项目发起者确认责任积分三个目的、年度额度与任务系数、年度清零、领域累计贡献、质量评价和领域专业参考摘要，并要求加入项目 | [`PROJECT_INITIATOR_CONFIRMATION_v0.2.7.md`](PROJECT_INITIATOR_CONFIRMATION_v0.2.7.md) | `not-recorded` | 只确认 `D-025` 的结构方向；具体数值、算法、后果和现实授权保持开放 |
+| `SRC-5E32B8C1` | project-direction-and-confirmation | 项目发起者要求增加独立验证状态维度，并制作权力—责任—决策交叉一致性表 | [`PROJECT_INITIATOR_CONFIRMATION_v0.2.8.md`](PROJECT_INITIATOR_CONFIRMATION_v0.2.8.md) | `not-recorded` | 只确认 `D-026` 的项目治理与交叉审计方向；不证明任何机制已经现实验证 |
+| `SRC-9F3A72C4` | project-direction-and-confirmation | 项目发起者要求选择两个边界明确的历史案例、形成探索性外部讨论与反馈登记，并按对第一原则的支撑关系排序原典核查 | [`PROJECT_INITIATOR_CONFIRMATION_v0.2.9.md`](PROJECT_INITIATOR_CONFIRMATION_v0.2.9.md) | `not-recorded` | 只确认 `D-027` 的工作方向；不逐句确认案例和探索稿，也不代表外部反馈已经发生 |
+| `SRC-4B788D7F` | mixed-shared-conversation | 项目发起者提供的需求归属、公众第一责任与私人需求责任对话；页面具有 user / assistant 角色标记 | [`../06_Current_Round_Source_Notes/2026-08-20_需求归属与公共需求责任来源确认.md`](../06_Current_Round_Source_Notes/2026-08-20_需求归属与公共需求责任来源确认.md) | `not-recorded` | 只有 user-role 语句可证明作者方向；AI 回答中的固定分类、角色责任表、判据和机制只作候选重构，不整体升级 |
+| `SRC-2622ABAF` | project-direction-and-confirmation | 项目发起者本轮提供上述对话并要求据此修正公共需求责任定义、整理新的项目文档 | [`PROJECT_DECISION_CONFIRMATIONS.md`](PROJECT_DECISION_CONFIRMATIONS.md) | `not-recorded` | 只确认 `PCR-A18D8A` 与 `D-028` 所列方向；不逐句确认 AI 回答、编辑重构或任何实施参数 |
+| `SRC-6D86EDE1` | mixed-dialogue-export | 公共决定、具体责任分配、执行授权及专业能力与轮换讨论的本地 Markdown 对话导出 | [`../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md`](../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md) | `6d86ede19c370fd7edb39fe3e70027f2038de7e89411623d7cab543d3ac47f15` | 用户旧稿、用户直接说明、被粘贴反馈与 AI 回答分别归属；专业学习、轮换、认证、退出和积分只作候选机制 |
+| `SRC-2FBF8D1E` | mixed-dialogue-export | 需求归属与公共需求第一责任对话的本地 Markdown 导出，是 `SRC-4B788D7F` 的替代表征 | [`../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md`](../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md) | `2fbf8d1e85a1dba5b0b9b50d46adf3a3e64eb709875d6aaae2a6fae48c795c73` | 增加本地导出哈希，不形成第二项决定，也不扩大 `D-028` 的确认范围 |
+| `SRC-030E9D25` | mixed-dialogue-export | 人、自由、自主、社会性、自主时间与制度总论衔接讨论的本地 Markdown 对话导出 | [`../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md`](../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md) | `030e9d2546c5d4d25e637553722211f3d94efcd4d2d6323b9355c2ca905951b9` | 作者候选稿、用户方向、图片、AI 总论与 AI 架构分别处理；事实、公式、版本和成熟度不整体升级 |
+| `SRC-8B21C4D0` | project-integration-direction | 项目发起者要求区分附件内指令与当前请求，整合三份文件并重新修订项目白皮书 | [`../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md`](../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md) | `not-recorded` | 授权本轮编辑与建立白皮书草案；不等于逐句接受附件中的 AI 回答、外部反馈、事实断言或机制参数 |
+
+## v0.2.9 外部研究来源
+
+| Source ID | 来源类别 | 最小描述 | 稳定入口 | 内容哈希 | 使用边界 |
+|---|---|---|---|---|---|
+| `SRC-4E7B2A19` | published-research | Polly Wiessner 关于 Ju/’hoansi 狩猎、`hxaro` 和长期互惠网络的研究 | <https://doi.org/10.1016/S1090-5138(02)00096-X>；<https://wiki.santafe.edu/images/d/df/Wiessner.pdf> | `not-recorded` | 特定地区、时期和样本，不代表全部 Ju/’hoansi、采集社会或史前人类 |
+| `SRC-9D31C6F4` | published-research | Robert K. Hitchcock 关于多贝和 XaiXai 土地、领导与资源权的研究 | <https://cas-sca.journals.uvic.ca/index.php/anthropologica/article/download/2304/2083/3315> | `not-recorded` | 后期资料用于检验外部资源权条件，不倒推早期全部内部制度 |
+| `SRC-6A8F13D2` | published-research | Anjel Errasti 对 Fagor 跨国合作社结构的参与观察与访谈研究 | <https://revistas.ucm.es/index.php/REVE/article/download/43385/41057> | `not-recorded` | 论文在最终破产前完成，不能单独重建破产决策全过程 |
+| `SRC-2C74E9B5` | organization-self-report | MONDRAGON Corporation 2014 年报 | <https://www.mondragon-corporation.com/wp-content/themes/mondragon/docs/eng/annual-report-2014.pdf> | `not-recorded` | 组织自我报告；保留成员、时点和“就业解决方案”口径 |
+| `SRC-7F15B8C3` | post-crisis-research | 蒙德拉贡大学出版的法戈尔危机后反思文集 | <https://doi.org/10.48764/ec2h-1s59> | `not-recorded` | 作为危机后研究入口，不替代独立统计或全部受影响者材料 |
 
 ## 既有来源提取映射
 

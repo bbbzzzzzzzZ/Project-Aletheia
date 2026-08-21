@@ -2,8 +2,8 @@
 title: Provenance and Decision Records
 layer: research
 status: stable
-version: 0.2.7
-updated: 2026-08-16
+version: 0.2.9
+updated: 2026-08-20
 ---
 
 # 05 · Provenance and Decision Records
@@ -16,8 +16,10 @@ updated: 2026-08-16
 - [`PROJECT_INITIATOR_CONFIRMATION_v0.2.5.md`](PROJECT_INITIATOR_CONFIRMATION_v0.2.5.md)：记录十环节矩阵、三级触发及现行术语澄清的确认边界。
 - [`PROJECT_INITIATOR_CONFIRMATION_v0.2.6.md`](PROJECT_INITIATOR_CONFIRMATION_v0.2.6.md)：记录责任会计三分结构正式取代 `C-13` 的确认边界。
 - [`PROJECT_INITIATOR_CONFIRMATION_v0.2.7.md`](PROJECT_INITIATOR_CONFIRMATION_v0.2.7.md)：记录年度责任积分、领域累计贡献、质量评价、专业参考摘要及两个外部文件的整合边界。
+- [`PROJECT_INITIATOR_CONFIRMATION_v0.2.8.md`](PROJECT_INITIATOR_CONFIRMATION_v0.2.8.md)：记录验证状态第二维度与权力—责任—决策交叉审计的确认边界。
+- [`PROJECT_INITIATOR_CONFIRMATION_v0.2.9.md`](PROJECT_INITIATOR_CONFIRMATION_v0.2.9.md)：记录边界案例、探索稿反馈登记和原典核查优先级的确认边界。
 
-`v0.1.6` 的 `PCR-5E7A91` 记录有限互惠公共责任方向及其边界，并明确其只部分取代 `D-015` 的开放结论，不取消当时三层不得自动跳转的边界。现行术语依 `D-018` 展示为四个判断：旧第三层已经拆为有限互惠公共责任与具体公共责任任务义务。
+`v0.1.6` 的 `PCR-5E7A91` 记录有限互惠公共责任方向及其边界，并明确其只部分取代 `D-015` 的开放结论，不取消当时三层不得自动跳转的边界。`PCR-A18D8A` 与 `D-028` 又补入公共需求归属责任；现行术语展示为五个判断：公共必要性、公共需求归属责任、公共组织与维护责任、有限互惠公共责任与具体公共责任任务义务。
 
 `v0.2.2` 的 `PCR-C35F82` 和 [`PROJECT_INITIATOR_CONFIRMATION_v0.2.2.md`](PROJECT_INITIATOR_CONFIRMATION_v0.2.2.md) 记录职业开放、司法四层、一般人身安全及生育婚姻亲职分离 37 项方向全部接受；原 RTF 参数和现实机制不因此自动确认。
 
@@ -30,6 +32,10 @@ updated: 2026-08-16
 `v0.2.6` 的 `PCR-6D2A8F` 记录周期性基础责任账户、公共贡献履历和领域限定的专业可靠性档案三分结构。`D-024` 取代 v0.2.4 `C-13` 的全面删除，但不恢复终身总分、人格评分、基本保障绑定或自动派工。
 
 `v0.2.7` 的 `PCR-A2D7F9` 将三分记录细化为四层功能，接受年度清零、任务当量结构、领域累计贡献、质量评价和专业参考摘要；具体参数和现实效力继续开放。
+
+`v0.2.8` 的 `PCR-5E32B8` 将文档成熟度与验证进度分开，并确认三模型交叉审计只负责发现和路由接口问题，不取代原模型或冒充现实验证。
+
+`v0.2.9` 的 `PCR-9F3A72` 将首批历史检验收窄为两个具体案例，建立外部反馈登记并按对第一原则的实际支撑关系排序原典核查；待发布稿和不存在的反馈不得预填。
 
 这里的记录只证明 Project Aletheia 的思想归属和项目内部决定链，**不是**现实共同体、受影响者或公众对任何制度的授权。项目内部确认不能替代公共决策所需的参与、异议、代表、复核和撤回程序。
 
