@@ -2,8 +2,8 @@
 title: Project Aletheia
 layer: project-governance
 status: stable
-version: 0.2.9
-updated: 2026-08-21
+version: 0.3.0
+updated: 2026-08-25
 ---
 
 # Project Aletheia
@@ -14,8 +14,8 @@ updated: 2026-08-21
 
 它把自身定位为一项“文明操作系统”的基础研究，而不是一部从具体制度开始的社会法典。
 
-当前工作版本：`0.2.9`（边界案例与外部验证入口）  
-更新日期：`2026-08-21`
+当前工作版本：`0.3.0`（第一原则 v1.0 与验证脚手架）  
+更新日期：`2026-08-25`
 
 ## 从哪里开始
 
@@ -46,7 +46,7 @@ updated: 2026-08-21
 
 ## 对外核心命题
 
-根 README、普通读者总纲和公众文章只共同使用以下七条。完整理论论证仍以[第一原则](03_Aletheia_Framework/第一原则.md)为准。
+根 README、普通读者总纲和公众文章只共同使用以下七条。项目发起者已确认这七条的当前普通语言方向；完整理论论证仍以[第一原则](03_Aletheia_Framework/第一原则.md)为准，其十一公理与禁区已经形成 [v1.0 规范语义冻结](03_Aletheia_Framework/第一原则_v1.0_语义冻结.md)。冻结不表示经验验证、机制采用或现实授权已经完成。
 
 1. **人先于身份和功能。** 职业、能力和贡献只能说明人的一部分，不能决定人的高低，也不能封住以后改变方向的可能。
 2. **自己最有资格说明自己的需要，但需要不是命令。** 别人可以帮助理解事实和后果，却不能替本人拥有他的人生目的；表达需要也不会自动产生支配别人的权利。
@@ -62,7 +62,7 @@ updated: 2026-08-21
 
 - [研究框架](03_Aletheia_Framework/README.md)保存完整论证、反例和可修订的问题；
 - [公众思想书](07_Writing/Thought_Book/README.md)用日常语言回答“为什么”；
-- [制度白皮书](04_Institution_Design/Project_Aletheia_制度白皮书.md)连接各模块，研究“怎样进入制度”；[制度设计目录](04_Institution_Design/README.md)保存下层模块与机制。
+- [制度白皮书](04_Institution_Design/Project_Aletheia_制度白皮书.md)连接各模块，研究“怎样进入制度”；[机制层总览草案](04_Institution_Design/Project_Aletheia_机制层总览草案.md)研究公共认定、任务、承担、授权、连续性与纠错可能怎样衔接；[制度设计目录](04_Institution_Design/README.md)保存下层专题机制。
 
 公众入口不展开积分、计算公式、控制矩阵或内部术语清单。责任怎样记录和计算，集中在[责任与贡献评价机制](04_Institution_Design/Incentive_System/责任积分、贡献积分与领域专业评价.md)；公共权力怎样检查集中，集中在[权力控制机制](04_Institution_Design/Political_System/十环节权力集中控制矩阵.md)。这些文件目前仍是研究草案，不是已经验证或可以直接执行的制度。
 

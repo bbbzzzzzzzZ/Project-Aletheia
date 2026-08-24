@@ -2,8 +2,8 @@
 title: Provenance and Decision Records
 layer: research
 status: stable
-version: 0.2.9
-updated: 2026-08-20
+version: 0.3.0
+updated: 2026-08-25
 ---
 
 # 05 · Provenance and Decision Records
@@ -18,6 +18,7 @@ updated: 2026-08-20
 - [`PROJECT_INITIATOR_CONFIRMATION_v0.2.7.md`](PROJECT_INITIATOR_CONFIRMATION_v0.2.7.md)：记录年度责任积分、领域累计贡献、质量评价、专业参考摘要及两个外部文件的整合边界。
 - [`PROJECT_INITIATOR_CONFIRMATION_v0.2.8.md`](PROJECT_INITIATOR_CONFIRMATION_v0.2.8.md)：记录验证状态第二维度与权力—责任—决策交叉审计的确认边界。
 - [`PROJECT_INITIATOR_CONFIRMATION_v0.2.9.md`](PROJECT_INITIATOR_CONFIRMATION_v0.2.9.md)：记录边界案例、探索稿反馈登记和原典核查优先级的确认边界。
+- [`PROJECT_INITIATOR_CONFIRMATION_v0.3.0.md`](PROJECT_INITIATOR_CONFIRMATION_v0.3.0.md)：记录 `v0.3.0` 公共研究快照、反馈后三步稿与发布边界；不把草案公开等同于作者定稿或现实验证。
 
 `v0.1.6` 的 `PCR-5E7A91` 记录有限互惠公共责任方向及其边界，并明确其只部分取代 `D-015` 的开放结论，不取消当时三层不得自动跳转的边界。`PCR-A18D8A` 与 `D-028` 又补入公共需求归属责任；现行术语展示为五个判断：公共必要性、公共需求归属责任、公共组织与维护责任、有限互惠公共责任与具体公共责任任务义务。
 
@@ -36,6 +37,10 @@ updated: 2026-08-20
 `v0.2.8` 的 `PCR-5E32B8` 将文档成熟度与验证进度分开，并确认三模型交叉审计只负责发现和路由接口问题，不取代原模型或冒充现实验证。
 
 `v0.2.9` 的 `PCR-9F3A72` 将首批历史检验收窄为两个具体案例，建立外部反馈登记并按对第一原则的实际支撑关系排序原典核查；待发布稿和不存在的反馈不得预填。
+
+`v0.3.0` 的 `PCR-B60C2F` 与 `D-029` 记录七条公众命题和五篇思想书中心问题的作者确认，并让有限公共责任个案继续保持候选状态。该记录只把相关文稿推进到部分作者审阅，不表示全文定稿、事实核查、现实验证或实施授权完成。
+
+`v0.3.0` 的 `PCR-4D7A31` 与 `D-030` 冻结第一原则 v1.0 的十一公理与禁区规范语义；`PCR-E9C2B5` 与 `D-031` 记录司法解释、四份人生周期走查、缺席后果候选机制、40 岁转行外部验证和生育禁止现实试验的范围；`PCR-C47D91` 与 `D-032` 只确认公开研究快照及反馈后三步稿的发布边界。三项确认都不把草案、事实、参数、验证结果或实施权限升级为现实结论。
 
 这里的记录只证明 Project Aletheia 的思想归属和项目内部决定链，**不是**现实共同体、受影响者或公众对任何制度的授权。项目内部确认不能替代公共决策所需的参与、异议、代表、复核和撤回程序。
 

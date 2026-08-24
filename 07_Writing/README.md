@@ -2,8 +2,8 @@
 title: 对外写作与公众思想书
 layer: publication
 status: draft
-version: 0.2.9
-updated: 2026-08-21
+version: 0.3.0
+updated: 2026-08-24
 ---
 
 # 07 · 对外写作
@@ -59,4 +59,4 @@ updated: 2026-08-21
 
 ## 外部反馈回写
 
-所有探索稿的发布版本、平台链接与可判断反馈统一登记在 [`EXTERNAL_FEEDBACK_REGISTRY.md`](../08_Research_Workbench/07_Validation_Records/EXTERNAL_FEEDBACK_REGISTRY.md)。没有公开链接时只可写“待发布”；没有实质反馈时不得把验证状态升级为 `in-validation`。
+所有探索稿的发布版本、平台链接与可判断反馈统一登记在 [`EXTERNAL_FEEDBACK_REGISTRY.md`](../08_Research_Workbench/07_Validation_Records/EXTERNAL_FEEDBACK_REGISTRY.md)。没有可访问的文章或发布者入口时，通常只可写“待发布”；只有另有可追溯的外发说明、反馈转贴或公开讨论证据时，才可标记 `published-link-pending`，并同时写明证据与缺口，不得声称发布版本已经冻结。没有实质反馈时不得把验证状态升级为 `in-validation`。

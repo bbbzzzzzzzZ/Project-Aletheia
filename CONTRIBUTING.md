@@ -2,8 +2,8 @@
 title: Contributing
 layer: project-governance
 status: stable
-version: 0.2.8
-updated: 2026-08-12
+version: 0.3.0
+updated: 2026-08-24
 ---
 
 # Contributing
@@ -18,11 +18,13 @@ updated: 2026-08-12
 ---
 title: 文档标题
 layer: project-governance | core-question | philosophy | human-model | framework | institution | case | criticism | publication | research | archive
-status: stable | draft | question | template | archive
+status: stable | confirmed | draft | question | template | archive
 version: 0.1.0
 updated: YYYY-MM-DD
 ---
 ```
+
+`confirmed` 仅用于冻结的项目发起者确认记录；普通理论、机制、案例和写作文件不得以此替代 `stable`、`draft`、`question` 或验证状态。
 
 正文至少回答：
 

@@ -2,8 +2,8 @@
 title: 劳动制度
 layer: institution
 status: draft
-version: 0.2.9
-updated: 2026-08-20
+version: 0.3.0
+updated: 2026-08-25
 ---
 
 # Labor System
@@ -20,7 +20,8 @@ updated: 2026-08-20
 4. [`时间制度.md`](时间制度.md)
 5. [`公共责任制度.md`](公共责任制度.md)
 6. [`Mechanisms/有限互惠公共责任机制.md`](Mechanisms/有限互惠公共责任机制.md)
-7. [`基本保障_有限公共责任_关键服务连续性协调研究.md`](基本保障_有限公共责任_关键服务连续性协调研究.md)
+7. [`Mechanisms/公共责任缺席与后果_候选机制.md`](Mechanisms/公共责任缺席与后果_候选机制.md)
+8. [`基本保障_有限公共责任_关键服务连续性协调研究.md`](基本保障_有限公共责任_关键服务连续性协调研究.md)
 
 下层材料：
 

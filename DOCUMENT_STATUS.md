@@ -2,17 +2,18 @@
 title: Document Status
 layer: project-governance
 status: stable
-version: 0.2.9
-updated: 2026-08-21
+version: 0.3.0
+updated: 2026-08-25
 ---
 
 # Document Status
 
-更新时间：`2026-08-21`
+更新时间：`2026-08-25`
 
 ## 状态口径
 
 - `stable`：该文件在其负责范围内是当前项目基线；表示当前引用入口，不表示哲学或经验上已经最终证明。
+- `confirmed`：只用于冻结的项目发起者确认记录，表示确认范围已经留痕；不表示被确认内容已完成事实核查、现实验证或公共授权。
 - `draft`：已有命题，仍需论证、反例或机制补全。
 - `question`：文件的主要答案仍开放；可以明确重述已经接受的上游边界，但其中新增的经验命题、取舍和机制方案不代表项目立场。
 - `template`：结构已建，内容待研究。
@@ -29,7 +30,7 @@ updated: 2026-08-21
 | `ready-for-validation` | 已能说明验证对象、所需材料或参与者、方法、失败条件和记录方式 | 不表示验证已经开始 |
 | `participant-blocked` | 已有可执行验证方案，但缺少不可由作者或 AI 替代的受影响者、实践者或其他参与者 | 不表示问题永久无法推进；仍可做招募、材料准备和风险审查 |
 | `in-validation` | 已开始取得案例、访谈、专业复核、公开反例、模拟或试验记录 | 不表示样本充分或结论稳定 |
-| `partially-validated` | 已有至少一组可追溯外部材料或参与结果并据此修订，但范围有限 | 不得外推到未检验群体、时期或制度环境 |
+| `partially-validated` | 验证对象或被评价版本已经固定，至少一组可追溯外部材料或参与结果已与具体修改逐条对应，适用范围、反例和复核边界均有记录 | 不得外推到未检验群体、时期或制度环境 |
 | `needs-replication` | 当前范围已有支持或反驳结果，需要换场景、群体或方法复核稳健性 | 不表示第一次结果无效 |
 | `validated-for-current-scope` | 预定范围、失败条件和参与要求已完成，且结果、反例与局限均已记录 | 只对明示范围成立，不是最终真理或现实授权 |
 
@@ -42,15 +43,22 @@ updated: 2026-08-21
 | 权力—责任—决策接口 | [`03_Aletheia_Framework/权力_责任_决策交叉一致性表.md`](03_Aletheia_Framework/权力_责任_决策交叉一致性表.md) | draft | `ready-for-validation` | 已完成文本内交叉审计，尚无现实项目或机构流程复测 | 选取一个公共项目和一个紧急事项逐阶段映射 |
 | 谁代表共同需求 | `决策模型.md`、`Political_System/代表机制.md` | question | `not-ready` | 代表范围、事项适配程序和参与方案仍未收束，不能把“缺参与者”当作唯一问题 | 先形成两个可比较代表方案及失败条件，再邀请受影响者复核 |
 | 开放主体人类模型 | `02_Human_Nature/开放主体模型.md` | draft | `ready-for-validation` | 缺生命周期、跨文化、残障与能力变化的证据和参与记录 | 制定证据综述问题表，并招募不同生命阶段参与者评议 |
-| 需求归属、个人需求责任与非等级互助 | [`03_Aletheia_Framework/需求归属与公共需求责任.md`](03_Aletheia_Framework/需求归属与公共需求责任.md)、`责任模型.md`、`公共责任制度.md` | draft | `participant-blocked` | 已补入公众第一责任，但尚缺患者、残障者、照护者、维权者和一线服务者复核其是否真正避免把公共责任推回求助者，也缺私人偏好与公共最低范围的跨场景检验 | 先准备无障碍摘要和医疗、无障碍、照护、组织缺口、私人高成本偏好场景题，再开展小组评议 |
-| 项目级制度白皮书 | [`04_Institution_Design/Project_Aletheia_制度白皮书.md`](04_Institution_Design/Project_Aletheia_制度白皮书.md) | draft | `not-ready` | 已完成框架综合，但作者措辞确认、模块实践者审阅、事实核查和跨场景失败测试尚未完成 | 先完成作者审阅，再由各模块实践者与受影响者检查接口、缺口和失败条件 |
+| 需求归属、个人需求责任与非等级互助 | [`03_Aletheia_Framework/需求归属与公共需求责任.md`](03_Aletheia_Framework/需求归属与公共需求责任.md)、`责任模型.md`、`公共责任制度.md` | draft | `not-ready` | 已补入公众第一责任，但无障碍摘要、场景题、参与保护、退出和反馈回写规则尚未齐备，也尚缺患者、残障者、照护者、维权者和一线服务者复核 | 先准备无障碍摘要和医疗、无障碍、照护、组织缺口、私人高成本偏好场景题及参与保护协议，再邀请小组评议 |
+| 项目级制度白皮书 | [`04_Institution_Design/Project_Aletheia_制度白皮书.md`](04_Institution_Design/Project_Aletheia_制度白皮书.md) | draft | `not-ready` | 七条公众命题已获作者方向确认，并补入现实比较入口；其他措辞、事实核查、现实基线比较、模块实践者审阅和跨场景失败测试尚未完成 | 先完成其余段落作者审阅，再用一份具体场景比较卡检查现制功能、候选收益、转换成本、停止和回滚 |
+| 项目级机制层总览 | [`04_Institution_Design/Project_Aletheia_机制层总览草案.md`](04_Institution_Design/Project_Aletheia_机制层总览草案.md)、[`五机制交叉表`](04_Institution_Design/Project_Aletheia_五机制交叉表.md) | draft | `not-ready` | 已完成现有专题、竞争方案、停止线、制度工程比较字段和三次内部假设走查；但全文尚待作者复核，方案尚未选择，且没有现实基线、实践者、受影响者或现场证据 | 先复核交叉表和比较协议，再选择一个真实场景形成现行基线、竞争方案、参与保护、记录方法和失败条件齐备的验证包 |
+| 五机制三场景内部走查 | [`06_Criticism_and_Failure/Mechanism_Walkthroughs/README.md`](06_Criticism_and_Failure/Mechanism_Walkthroughs/README.md) | draft | `not-ready` | 三份走查全部是假设输入，只检查纸面接口与返回路径；临床、照护、能源、法律、公平和参与事实均未核验 | 先完成作者与专题复核、参与保护和记录协议，达到 `ready-for-validation` 后，再邀请患者或服务对象、一线承担者、机构、专业人员、维权者和其他受影响者参与并留痕 |
+| Aletheia 第一原则 v1.0 语义冻结 | [`03_Aletheia_Framework/第一原则_v1.0_语义冻结.md`](03_Aletheia_Framework/第一原则_v1.0_语义冻结.md) | stable | `not-required` | 本单元只记录十一公理与禁区的规范语义版本，不提出独立经验结论 | 维持变更纪律；事实支撑、反例、推论和机制效果分别进入相应验证单元 |
+| 司法解释体系 | [`04_Institution_Design/Constitutional_and_Legal_System/司法解释体系.md`](04_Institution_Design/Constitutional_and_Legal_System/司法解释体系.md) | draft | `not-ready` | 四种方法与贯穿式主体接口已形成草案，但比较法、案件样本、主体参与、代理冲突和记录格式尚未复核 | 先以匿名案件卡比较解释理由和失败停止线，再邀请法律实践者与受影响者审阅 |
+| 四阶段人生周期内部走查 | [`06_Criticism_and_Failure/Lifecycle_Walkthroughs/README.md`](06_Criticism_and_Failure/Lifecycle_Walkthroughs/README.md) | draft | `not-ready` | 四份材料均为假设输入，作者审阅、事实核查和外部参与尚未完成；出生与亲职明确禁止现实制度试验 | 依次复核 40 岁转行、18 岁转衔、80 岁照护、出生与亲职；生育只做法律、伦理和匿名情境评审 |
+| 公共责任缺席与后果 | [`04_Institution_Design/Labor_System/Mechanisms/公共责任缺席与后果_候选机制.md`](04_Institution_Design/Labor_System/Mechanisms/公共责任缺席与后果_候选机制.md) | draft | `not-ready` | 已分无责任突发、轻微过失和恶意逃避，但证据规则、竞争方案、后果白名单、恢复与申诉尚未完成 | 先比较仅重排、任务内修复与同机制非基本权益限期调整三类方案；基本保障、综合信用和自动派工保持停止 |
+| 40 岁转行首次外部验证 | [`08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_首次外部验证方案.md`](08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_首次外部验证方案.md) | draft | `not-ready` | 国家级现制资料与三套方案已建；尚未选定具体地域和就业类型，访谈材料、同意、存储规则和联系人未完成，邀请尚未发出 | 选定一个地域和就业类型，冻结当地基线，完成参与保护及统一问题表后，再向五组复核者发出邀请 |
 | 儿童公共照护与成长自主 | `Education_System/儿童公共照护与成长自主.md` | question | `not-ready` | 仍缺具体候选机制、年龄与支持性决定边界；儿童参与也需独立伦理和保护方案 | 先完成参与保护协议和两个候选照护模型 |
 | 有限互惠公共责任任务 | `Labor_System/Mechanisms/有限互惠公共责任机制.md` | draft | `ready-for-validation` | 缺医疗、照护、消防、能源等不同连续性场景数据 | 对每类服务分别建立最低覆盖、能力、负担、豁免和中断测试 |
 | 责任积分与领域专业评价 | `Incentive_System/责任积分、贡献积分与领域专业评价.md` | draft | `ready-for-validation` | 缺跨行业任务样本、质量证据、刷分与定价权俘获测试 | 选择医疗、照护、工程、清洁各一组任务试算，不先确定统一参数 |
 | 十环节权力集中控制 | `Political_System/十环节权力集中控制矩阵.md` | draft | `ready-for-validation` | 三环、四环触发线尚未适配组织规模、风险和连续性 | 用医院、公共工程和小型社区项目绘制真实控制图 |
 | 公共权力失效纠错 | `Political_System/公共权力失效纠错机制.md` | draft | `ready-for-validation` | 缺证据删除、监督俘获、无力赔偿和关联获利的完整案例演练 | 按四种失败链分别演练触发、保全、调查、先行修复与追偿 |
 | 历史案例层 | [`05_Case_Studies/README.md`](05_Case_Studies/README.md) | draft | `in-validation` | 已完成多贝 Ju/’hoansi 与法戈尔危机两个有限样本；仍缺被较少记录主体、独立复核与差异案例复现 | 补非成员、女性、照护者和地方社区材料，并用第三个差异案例复现 |
-| 探索性公众讨论 | [`公共决定之后还缺哪三步.md`](07_Writing/External_Discussion/公共决定之后还缺哪三步.md) | draft | `ready-for-validation` | 稿件已按新来源重写，仍待作者确认；尚未指定平台、取得公开链接和实质反馈 | 完成作者审阅后指定平台，登记公开版本和逐条反馈，再决定是否升级 |
+| 探索性公众讨论 | [`公共决定之后还缺哪三步.md`](07_Writing/External_Discussion/公共决定之后还缺哪三步.md)、[`外部反馈登记`](08_Research_Workbench/07_Validation_Records/EXTERNAL_FEEDBACK_REGISTRY.md)、[`发布快照`](08_Research_Workbench/07_Validation_Records/Publication_Snapshots/README.md) | draft | `in-validation` | 两份知乎历史快照、公开问题页和反馈已经登记，反馈后稿也以 `PUB-2026-003` 随 GitHub v0.3.0 冻结公开；但评论时点版本、平台编辑历史、部分 permalink、当前稿逐段作者确认、事实核查及受影响者和实践者复核仍缺 | 逐条核对评论 permalink、时间与所见正文版本，补齐知乎发布者入口；完成当前稿审阅和事实核查，再邀请患者或服务对象、一线人员及相关实践者复核 |
 | 哲学原典核查 | [`原典核查优先级.md`](01_Philosophy/原典核查优先级.md) | draft | `not-ready` | 已完成排序，但尚缺第一批具体版本、段落、解释分歧和逐条对照 | 先完成黑格尔、儒家与尼采三项，不机械补齐目录 |
 
 `participant-blocked` 只用于方案已经足够让参与者判断、且下一步确实无法由作者、AI 或继续查资料替代的情形。仍缺候选方案或验证协议时保持 `not-ready`，避免把写作和研究缺口误报为外部参与阻断。
@@ -66,15 +74,32 @@ updated: 2026-08-21
 
 ## 核心文档状态
 
-### Unreleased 新增与修订文档
+### v0.3.0 新增与修订文档
 
 | 文档 | 状态 | 当前用途 | 升级条件 |
 |---|---|---|---|
-| `04_Institution_Design/Project_Aletheia_制度白皮书.md` | draft | 当前跨模块制度白皮书总论；连接现行框架，不另立定义、公式或参数 | 完成作者确认、事实核查、模块实践者审阅和场景压力测试 |
+| `04_Institution_Design/Project_Aletheia_制度白皮书.md` | draft | 当前跨模块制度白皮书总论；七条公众命题已获作者方向确认，其余内容仍为部分审阅 | 完成其余段落作者确认、事实核查、模块实践者审阅和场景压力测试 |
+| `04_Institution_Design/Project_Aletheia_机制层总览草案.md` | draft | 连接五个候选机制；有限公共责任个案已确认继续保留为候选，不等于已采用 | 结合交叉表完成其余措辞确认、竞争方案取舍和外部验证协议 |
+| `04_Institution_Design/Project_Aletheia_五机制交叉表.md` | draft | 路由五个候选机制、现有专题、竞争方案与停止线，不取代定义源 | 完成作者与专题维护者逐项复核，解决重复定义并确定仍保留的竞争方案 |
+| `06_Criticism_and_Failure/Mechanism_Walkthroughs/` | draft | 保存夜间急救、长期照护和能源连续性三份内部假设走查；不属于现实验证记录 | 补现实材料、参与保护与记录协议，由实践者和受影响者复核后另建外部验证记录 |
+| `03_Aletheia_Framework/第一原则_v1.0_语义冻结.md` | stable | 界定十一公理与禁区的语义冻结范围、排除项和变更纪律；不复制权威正文 | 只有实质改变公理或禁区时建立新决定并更新原则版本 |
+| `04_Institution_Design/Constitutional_and_Legal_System/司法解释体系.md` | draft | 四种解释方法与贯穿式主体接口的内部制度草案；不构成现实法律意见 | 完成作者审阅、比较法、匿名案件卡、法律实践者及受影响者复核 |
+| `06_Criticism_and_Failure/Lifecycle_Walkthroughs/` | draft | 按 40 岁转行、18 岁转衔、80 岁照护、出生与亲职保存四份内部假设走查 | 逐份完成作者审阅、事实核查和对应的外部材料；出生与亲职不得进入现实试验 |
+| `04_Institution_Design/Labor_System/Mechanisms/公共责任缺席与后果_候选机制.md` | draft | 研究已经正当成立的任务缺席后怎样区分原因、修复与候选后果；不进入第一原则 | 完成竞争方案、证据、后果白名单、独立复核、申诉、恢复与停止线后再评估验证准备度 |
+| `08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_首次外部验证方案.md` | draft | 保存固定基线与三方案、五类复核者和不干预边界；当前为 `proposed-unstarted` | 选定地域和就业类型，完成本地事实、邀请、同意、提问与记录协议后再启动 |
+| `08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-25_第一原则司法解释人生周期与验证范围确认.md` | archive | 记录本轮指令、采用范围、排除项和现实试验边界 | 永不直接升级；后续变化通过新决定、来源或验证记录追加 |
+| `08_Research_Workbench/01_Source_and_Priority_Maps/Project_Aletheia_研究问题与既有方案地图.md` | question | 把公众追问转成“具体问题—既有研究方向—项目暂定增量—竞争解释—证据缺口”比较骨架 | 用原典、综述、现实案例和最强竞争解释逐项填充；未完成前不作原创性声明 |
+| `08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-24_两篇外发文章新增反馈与整合边界.md` | archive | 区分项目发起者话语、外部评论、AI 分析与本轮采用边界，并记录两个附件的哈希及表征关系 | 永不直接升级；后续变化以新反馈、事实核查或明确决定追加 |
+| `07_Writing/Thought_Book/为什么“为你好”之前不先问我.md`、`为什么工资会像一个人的价格.md` | draft | 两篇中心问题已获作者确认；现有段落、第一人称、事实和混合来源归属仍未逐段批准 | 完成作者逐段确认、事实核查和现行框架一致性审阅 |
+| `08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md` | archive | 登记十一份材料的身份、哈希、相互关系、采用和排除边界 | 永不直接升级；后续变更以新来源、明确确认或新研究记录追加 |
 | `08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md` | archive | 区分三份对话中的用户方向、用户粘贴材料、文内指令、AI 扩写、采用项和排除项 | 永不直接升级；后续变更以新来源或明确决定追加 |
 | `03_Aletheia_Framework/需求归属与公共需求责任.md` | draft | 定义需求归属、第一责任与公众第一责任，并连接既有公共责任层级 | 用医疗、照护、无障碍、组织需求与私人偏好复核分类、公共最低范围和个人交互责任 |
 | `08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-20_需求归属与公共需求责任来源确认.md` | archive | 分离共享对话中的用户方向、AI 延伸与本轮采用边界 | 永不直接升级；后续变更以新来源和新决定追加 |
 | `08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md` 中 `PCR-A18D8A` | stable | 记录 `D-028` 的确认范围和未确认的 AI 扩写 | 作为历史确认记录保留，不倒改确认范围 |
+| `08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md` 中 `PCR-B60C2F` | stable | 记录七条公众命题、五篇中心问题与候选机制保留的确认范围 | 保持范围限定；不得据此升级全文批准、事实核查或现实验证状态 |
+| `07_Writing/External_Discussion/公共决定之后还缺哪三步.md` | draft | 反馈后探索稿；已作为 `PUB-2026-003` 随 GitHub v0.3.0 公开，旧知乎正文另有历史快照 | 完成逐段作者审阅与事实核查；若同步到知乎或其他平台，继续保存平台、时间、正文版本和反馈对应关系 |
+| `08_Research_Workbench/07_Validation_Records/EXTERNAL_FEEDBACK_REGISTRY.md` | stable | 记录三个外发事项、十四个反馈判断单元及版本关系；GitHub 公开不等于知乎重发 | 补齐知乎平台编辑历史、精确日期、发布者入口和缺失 permalink；继续逐条保留不利反馈与处理理由 |
+| `08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_INITIATOR_CONFIRMATION_v0.3.0.md` | confirmed | 记录 v0.3.0 公共研究快照和反馈后三步稿的发布范围 | 作为发布确认记录保留；不得据此升级全文批准、事实核查、验证状态或现实授权 |
 
 ### v0.2.9 新增与修订文档
 
@@ -82,8 +107,7 @@ updated: 2026-08-21
 |---|---|---|---|
 | `05_Case_Studies/多贝朱霍安西_互惠网络与非正式权力.md` | draft | 用有限民族志案例检验互惠、评价、事实权力和退出条件 | 补较少记录主体并以差异案例复现 |
 | `05_Case_Studies/蒙德拉贡法戈尔危机_合作所有权与成本分配.md` | draft | 用合作社危机检验成员边界、实际控制和修复分布 | 补非成员材料、决策时间线和独立结果复核 |
-| `07_Writing/External_Discussion/公共决定之后还缺哪三步.md` | draft | 征集公共需求归属、责任分配、授权分离、专业能力与退出边界的反例 | 完成作者审阅，指定平台并取得公开链接和实质反馈 |
-| `08_Research_Workbench/07_Validation_Records/EXTERNAL_FEEDBACK_REGISTRY.md` | stable | 记录发布版本、反馈和修订，不预填不存在的证据 | 实际发布和反馈进入时逐条追加 |
+| `08_Research_Workbench/07_Validation_Records/EXTERNAL_FEEDBACK_REGISTRY.md`（v0.2.9 初始状态） | stable | 当时只建立外部发布与反馈登记结构，未预填发布链接或反馈 | 后续发布史见 v0.3.0 区段；本历史说明不倒改当时状态 |
 | `01_Philosophy/原典核查优先级.md` | draft | 规定分批核查次序和完成标准 | 完成第一批原典、解释分歧和第一原则关系表 |
 | `08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_INITIATOR_CONFIRMATION_v0.2.9.md` | stable | `D-027` 与 `PCR-9F3A72` 的确认边界 | 作为历史确认记录保留，不倒改确认范围 |
 
@@ -134,7 +158,7 @@ updated: 2026-08-21
 
 | 文档 | 状态 | 当前用途 | 升级条件 |
 |---|---|---|---|
-| `03_Aletheia_Framework/第一原则.md`、`需求模型.md`、`责任模型.md` | draft | 个人需求责任、共同脆弱性与非等级互助的上游规范入口 | 用医疗、维权、残障、养老、长期照护和关系性需要案例完成反例与共同验证 |
+| `03_Aletheia_Framework/需求模型.md`、`责任模型.md` | draft | 个人需求责任、共同脆弱性与非等级互助的上游研究入口 | 用医疗、维权、残障、养老、长期照护和关系性需要案例完成反例与共同验证 |
 | `08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-15_个人需求责任与非等级互助来源确认.md` | archive | `SRC-8D4F2B90`、`SRC-C49CCC9B`、`PCR-C49CCC` 与 `D-021` 的来源、采用和排除边界 | 永不直接升级；后续修订通过新决定追加 |
 
 ### v0.2.2 新增已确认方向文档
@@ -161,7 +185,7 @@ updated: 2026-08-21
 | `04_Institution_Design/Information_and_AI_Governance/*` | draft | 已接受的信息宪政和 AI 边界原则；具体实现开放 | 数据、隐私、模型和替代运行验证 |
 | `04_Institution_Design/Incentive_System/*` | draft | 已接受的激励反等级原则；具体机制开放 | 激励效果、机会累积和事实权力验证 |
 | `08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_INITIATOR_CONFIRMATION_v0.2.0.md` | confirmed | 44 项项目发起者逐项确认记录 | 作为历史确认记录保留，不改写原确认范围 |
-| `06_Criticism_and_Failure/制度压力测试协议.md` | draft | 跨场景统一检查字段 | 完成首批五个场景并复测 |
+| `06_Criticism_and_Failure/制度压力测试协议.md` | draft | 跨场景统一检查字段，并新增现行基线、竞争方案、转换成本、可选验证方式、风险门槛、停止与回滚的制度工程比较卡 | 先用一个真实场景完成基线比较卡，再由实践者与受影响者复核字段是否可执行 |
 | `08_Research_Workbench/06_Current_Round_Source_Notes/*` | archive | 本轮聊天和 RTF 的来源、采用与排除边界 | 永不直接升级；命题须复制到当前层评审 |
 
 | 文档 | 状态 | 当前用途 | 升级条件 |
@@ -191,7 +215,8 @@ updated: 2026-08-21
 | `03_Aletheia_Framework/世界观.md` | draft | 保存人、关系、社会与制度的当前方向，并明确人的问题可以停留在无需新建共同任务或规则的回应空间 | 完成作者复核，以跨文化、关系和生命阶段材料检验边界 |
 | `03_Aletheia_Framework/制度生成语法.md` | draft | 只处理另行越过共同协调入口门槛的事项，区分任务、规则、承担依据、授权与退出 | 用多领域案例检验入口门槛、双循环接口与拒绝制度化的正常路径 |
 | `03_Aletheia_Framework/世界观与制度生成语法.md` | archive | 旧合并路径的迁移说明，不保存现行定义 | 只为历史链接保留；不得作为当前框架入口 |
-| `03_Aletheia_Framework/第一原则.md` | draft | 当前理论地基 | 完成概念冲突、反例和程序性保障审查 |
+| `03_Aletheia_Framework/第一原则.md` | stable | Aletheia 第一原则 v1.0 的权威正文；稳定范围仅为十一公理与禁区的规范语义 | 按语义冻结记录维护；事实支撑、反例、推论和下游机制继续分别审查 |
+| `03_Aletheia_Framework/第一原则_v1.0_语义冻结.md` | stable | 冻结范围、排除项与版本变更纪律的治理入口 | 公理或禁区发生实质变化时另建决定并更新版本 |
 | `03_Aletheia_Framework/需求模型.md` | draft | 区分需求表达与公共义务 | 建立代表、冲突和撤回程序 |
 | `03_Aletheia_Framework/责任模型.md` | draft | 请求、创设、受益、执行、决策授权与第三方影响的责任分账 | 解决不可预见影响、有限救助与集体责任边界 |
 | `03_Aletheia_Framework/权力模型.md` | draft | 有限授权与退出 | 建立紧急状态、监督者监督和救济闭环 |
@@ -224,15 +249,16 @@ updated: 2026-08-21
 | `05_Case_Studies/` 其余文件 | template | 宽泛历史比较入口 | 选择具体地域、时期、群体和机制后再形成案例，不按时代直接下结论 |
 | `06_Criticism_and_Failure/体验过拟合与解释闭合风险.md` | draft | 防止体验吻合、结构类比和 AI 判断被直接升级为普遍理论 | 用实际研究记录测试替代解释、证据状态和暂停条件 |
 | `06_Criticism_and_Failure/劳动任务系统压力测试.md` | draft | 以来源标记的失败假设检验能力、任务、认证、连续性、指标与公私边界 | 完成受影响者和实践者复核、证据字段，并至少进行一次可比较、可停止的演练 |
-| `06_Criticism_and_Failure/道德外包、定义权与退出成本压力测试.md` | draft | 检验承担者污名、定义权复制、退出成本转嫁及过去自愿被偷换为未来授权 | 用真实案例、竞争解释和受影响者复核检验四条失败链 |
+| `06_Criticism_and_Failure/道德外包、定义权与退出成本压力测试.md` | draft | 检验承担者污名、定义权复制、退出成本转嫁、过去自愿被偷换为未来授权及善意代言抹去当事人 | 用真实案例、竞争解释和受影响者复核检验五条失败链 |
 | `06_Criticism_and_Failure/基本保障、有限公共责任与关键服务连续性压力测试.md` | draft | 检验保障条件化、责任无限化、伪能力判断、正当理由失效、权益关联扩张、服务中断及负担转嫁 | 用不同服务和成员处境记录通过条件、停止条件、补救责任与复测结果 |
 | `06_Criticism_and_Failure/` 其余文件 | draft | 保存最强反驳 | 给出可证伪条件与制度响应 |
 | `07_Writing/公众号文章/为什么帮助别人，反而会被看不起.md` | archive | 早期混合来源公众候选稿；已由新的思想书候选正文取代，不再作为当前公众入口 | 不直接升级；如需复用，回到来源和现行框架重新审阅后另建正文 |
 | `07_Writing/Thought_Book/序言_如果今天重新设计人类社会.md` | draft | 公众思想书候选序言；源 RTF 的第一人称与事实来源待确认 | 完成作者逐段确认、事实核查与当前框架一致性审阅 |
-| `07_Writing/Thought_Book/为什么帮助别人反而会被看低.md`、`为什么一个人学了一种东西就要做一辈子.md`、`谁应该为我的需求负责.md` | draft | 依“具体困惑—生活例子—可能解释—制度问题”形成的三篇作者语言候选正文 | 完成作者逐段确认、事实核查及与现行框架的一致性审阅 |
-| `07_Writing/Thought_Book/README.md` | draft | 公众思想书的范围、正文入口、语言和来源边界 | 完成三篇正文与序言的作者确认，并建立后续章节问题表 |
-| `07_Writing/Project_Overview/README.md`、`项目总纲.md` | draft | 三条成果轨道共用的 3–5 页导航性项目总纲及目录入口 | 完成作者确认、事实核查与三轨一致性审阅 |
-| `07_Writing/External_Discussion/公共决定之后还缺哪三步.md` | draft | 以夜间急救解释公共需求归属、具体承担与执行授权，征集专业能力、预先承诺、退出和实施代价的反例 | 完成作者审阅后指定平台并发布；公开链接和真实反馈进入验证登记 |
+| `07_Writing/Thought_Book/为什么帮助别人反而会被看低.md`、`为什么一个人学了一种东西就要做一辈子.md`、`谁应该为我的需求负责.md` | draft | 三篇中心问题已获作者确认；现有正文仍是作者语言候选 | 完成作者逐段确认、事实核查及与现行框架的一致性审阅 |
+| `07_Writing/Thought_Book/为什么“为你好”之前不先问我.md`、`为什么工资会像一个人的价格.md` | draft | 两篇中心问题已获作者确认；混合来源、现有段落和事实主张仍未逐段批准 | 完成作者逐段确认、事实核查及与现行框架的一致性审阅 |
+| `07_Writing/Thought_Book/README.md` | draft | 公众思想书的范围、五篇正文入口、语言和来源边界；五篇中心已确认 | 完成五篇正文的逐段确认与序言审阅，并继续整理章节问题表 |
+| `07_Writing/Project_Overview/README.md`、`项目总纲.md` | draft | 七条公众核心命题已确认；其他三部分和具体措辞仍为部分审阅 | 完成其余段落作者确认、事实核查与三轨一致性审阅 |
+| `07_Writing/External_Discussion/公共决定之后还缺哪三步.md` | draft | 以夜间急救解释公共需求归属、具体承担与执行授权；反馈后稿已作为 `PUB-2026-003` 随 GitHub v0.3.0 公开，旧知乎版另有冻结快照 | 补知乎编辑历史、发布者入口与评论 permalink，完成当前稿作者审阅和事实核查；在其他平台发布时继续另建版本记录 |
 | `07_Writing/` 其余文件 | template / draft | 对外表达模板和既有公众草稿 | 按发布门槛逐项展开，不以公开本身替代验证 |
 | `08_Research_Workbench/` 各级 README、`IMPORT_MANIFEST.md` | stable | 非规范研究材料的路由、来源分层、来源身份与导入规则 | 导入范围、Source ID 或权威分工变化时更新 |
 | `08_Research_Workbench/07_Validation_Records/*` | stable | 外部发布、反馈和验证状态变化的可追溯登记 | 只登记真实链接与反馈；保留不利反馈和处理理由 |

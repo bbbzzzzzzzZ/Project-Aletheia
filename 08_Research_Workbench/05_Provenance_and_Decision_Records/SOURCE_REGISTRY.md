@@ -2,8 +2,8 @@
 title: Source Registry
 layer: research
 status: stable
-version: 0.2.9
-updated: 2026-08-21
+version: 0.3.0
+updated: 2026-08-25
 ---
 
 # Source Registry
@@ -43,6 +43,59 @@ Source ID 是稳定、无语义的项目内部标识。它不编码作者、日�
 | `SRC-2FBF8D1E` | mixed-dialogue-export | 需求归属与公共需求第一责任对话的本地 Markdown 导出，是 `SRC-4B788D7F` 的替代表征 | [`../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md`](../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md) | `2fbf8d1e85a1dba5b0b9b50d46adf3a3e64eb709875d6aaae2a6fae48c795c73` | 增加本地导出哈希，不形成第二项决定，也不扩大 `D-028` 的确认范围 |
 | `SRC-030E9D25` | mixed-dialogue-export | 人、自由、自主、社会性、自主时间与制度总论衔接讨论的本地 Markdown 对话导出 | [`../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md`](../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md) | `030e9d2546c5d4d25e637553722211f3d94efcd4d2d6323b9355c2ca905951b9` | 作者候选稿、用户方向、图片、AI 总论与 AI 架构分别处理；事实、公式、版本和成熟度不整体升级 |
 | `SRC-8B21C4D0` | project-integration-direction | 项目发起者要求区分附件内指令与当前请求，整合三份文件并重新修订项目白皮书 | [`../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md`](../06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md) | `not-recorded` | 授权本轮编辑与建立白皮书草案；不等于逐句接受附件中的 AI 回答、外部反馈、事实断言或机制参数 |
+| `SRC-4A9B7737` | mixed-dialogue-export | 《公共决定的三步》扩展版 Markdown 对话导出 | [`../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md) | `d6b39269eeaba0aaa06958ef5c1e49227c719bbcdbd962bb932cb1030da81f20` | 与 `SRC-6D86EDE1` 重叠；新增尾段均为 AI 回答，不扩大作者确认或现行三步模型 |
+| `SRC-36B8328B` | mixed-dialogue-export | 《制度衔接分析》扩展并重新导出的 Markdown 对话 | [`../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md) | `67f20963f16c98fbad410b28cfc7159d009b42c49b378ae9ed4e218b23879545` | 用户方向、第三方转贴、图片和 AI 架构分别归属；只提取和平与主体性的作者语言及转型研究问题 |
+| `SRC-71AADD11` | mixed-dialogue-export | 《政治系统模型解释》中的需求、能力、事实权力与历史解释讨论 | [`../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md) | `a8c68d0bb8cd559444a8a170ae648db7a23cfdeaf3f6cd0b47628cbd16fb7407` | 候选图与 AI 解释不作为现行权力模型；只路由为可证伪的历史与事实权力研究题 |
+| `SRC-5EAF92FA` | mixed-gemini-dialogue-export | 《母子替代丈夫关系解析》扩展版对话导出 | [`../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md) | `0aa2566eaadb02659660223dd01507d262ec0b7fb879fc7833a595345fedf618` | 只提取象征尊崇、私域影响和正式参与的研究问题；心理、宗教、文明与性别通则不升级 |
+| `SRC-96A55F12` | mixed-dialogue-export | 《责任积分的利弊分析》扩展版 Markdown 对话导出 | [`../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md) | `b45d64b430cd6d87f9bf571a9de53cfcb18778bc53001835254d4e90cea97d88` | 为 `D-025` 的作者方向提供后来取得的本地佐证；不替换历史 `not-recorded`，AI 公式与综合信用画像不采用 |
+| `SRC-D586AA36` | ai-heavy-mixed-dialogue-export | 《项目完成度与优先级》及其中回贴的机制与长期照护候选稿 | [`../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md) | `1dac2ade7817ce999d162badce4f3348ac9a748b5070bafb357932dae7ea9645` | 完成率和“测试通过”判断不采用；长期照护只保留为未来内部走查候选，不冒充验证记录 |
+| `SRC-8C40AF42` | google-ai-search-transcript | 《欧美国家存在职业歧视吗》搜索对话导出 | [`../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md) | `578e704c24fac2e5b0cc5186a30f1c59f911cad5eac5dd8150d343d9e688386d` | 搜索回答没有可复核来源清单；只生成职业评价、制度自卫与反向排斥的研究问题，不作事实证据 |
+| `SRC-7F523911` | mixed-unverified-essay | 《消失的当事人：牧领权力、匮乏之爱与业力轮回》候选稿 | [`../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md) | `2e86a601362d61c5e334b114dcb309ea95ed3a6e7fb176b9767c4634411fa3ab` | 问题种子可追溯、成文身份混合；只重写当事人表达与善意代言问题，思想家和文明通则待核查 |
+| `SRC-384C102C` | mixed-unverified-essay | 《独裁游戏的变体：从“君子远庖厨”到资本的价格审判》候选稿 | [`../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md) | `c71faff76cc05a96b92dbbd5b96f71958d336b0d93323062a6bbb47d06ac4380` | 与现行“帮助者被看低”主题高度重叠，不另立正文；历史、原典和文明常量判断不升级 |
+| `SRC-E189AD08` | mixed-unverified-essay | 《被异化的价值：当“人”成为“价格”》候选稿 | [`../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md) | `53a165c8b7d151c02ad3464b26d46290d74884954d18949294b6eae3e1c7ba7e` | 只保留价格越界成人格判断的生活问题；薪资、历史与学者断言须另行核查 |
+| `SRC-D1C279AA` | mixed-unverified-essay | 《论人的存在、意义与他者》候选稿 | [`../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-23_十一份材料提取与整合边界.md) | `5191e03b8fde644ec4f4369a62238b087261b8ad1c11a3f001f55b9113d082a0` | 只提取关系、承认与外部评价问题；生物学、神经科学、母婴和黑格尔解释不作现行事实 |
+| `SRC-B60C2F17` | project-review-and-confirmation | 项目发起者确认七条公众核心命题、保留有限公共责任个案候选，并确认五篇思想书的中心问题 | [`PROJECT_DECISION_CONFIRMATIONS.md`](PROJECT_DECISION_CONFIRMATIONS.md) | `not-recorded` | 只确认 `PCR-B60C2F` 与 `D-029` 所列范围；不表示全文逐句批准、事实核查、现实验证或实施授权完成 |
+| `SRC-74C1E290` | project-work-direction | 项目发起者要求正式建立五个候选机制与现有专题、竞争方案、停止线的交叉表，并依次用夜间急救、长期照护和能源连续性作内部场景走查 | [`../../04_Institution_Design/Project_Aletheia_五机制交叉表.md`](../../04_Institution_Design/Project_Aletheia_五机制交叉表.md) | `not-recorded` | 授权建立研究草案和内部假设走查；不确认竞争方案、场景假设或走查结论，也不构成现实验证、公共决定或实施授权 |
+| `SRC-91E4C7A2` | mixed-dialogue-feedback-export | 《制度衔接分析 (2)》后续反馈对话导出，包含公开署名反馈转贴、用户澄清、截图和 AI 分析 | [`../06_Current_Round_Source_Notes/2026-08-24_两篇外发文章新增反馈与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-24_两篇外发文章新增反馈与整合边界.md) | `3a891aacb30947cd2de9b53e8b401db80d29029d4392c92937745b5cedf3a83d` | 只把可辨认的第三方反馈作为反馈输入；用户没有确认 AI 提出的新核心问题、理论分类、标题或桥梁章节 |
+| `SRC-A6F2D8B9` | mixed-dialogue-feedback-export | 《公共决定的三步 (2)》反馈扩展导出，包含旧稿、公开回答与截图、用户旧说明、内嵌图片和 AI 分析 | [`../06_Current_Round_Source_Notes/2026-08-24_两篇外发文章新增反馈与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-24_两篇外发文章新增反馈与整合边界.md) | `643d6bec609038f5895f0b1f8791e859185a82088ec06bf38cf62428af04dcff` | 公开反馈按链接或截图身份登记；AI 的“第零步”、新模型链、全民责任积分及默认派工方案不升级 |
+| `SRC-5C7E1A84` | project-integration-direction | 项目发起者说明两份文件是原来两篇外发文章的新增反馈与修改，并要求判断怎样补充进项目 | [`../06_Current_Round_Source_Notes/2026-08-24_两篇外发文章新增反馈与整合边界.md`](../06_Current_Round_Source_Notes/2026-08-24_两篇外发文章新增反馈与整合边界.md) | `not-recorded` | 授权反馈整理与兼容性修订；不表示接受第三方意见、AI 扩写、事实主张或新的机制决定 |
+| `SRC-8D6B4E21` | author-provided-publication-snapshot | 《公共决定之后，还缺什么？》外发正文的用户提供 Markdown 快照 | [`../07_Validation_Records/Publication_Snapshots/PUB-2026-001_公共决定之后还缺什么_用户提供快照.md`](../07_Validation_Records/Publication_Snapshots/PUB-2026-001_公共决定之后还缺什么_用户提供快照.md) | `19d29995b318d867b0aa867eef681a25547344de9a22fec70fee049d4338ff7f` | 只归档用户提供的外发正文表征；平台编辑历史与精确发布日期待核，不覆盖反馈后修订稿 |
+| `SRC-2A9C7F40` | author-provided-publication-snapshot | 《为什么需要责任型社会制度：从意义、承认到劳动与价格》外发正文的用户提供 Markdown 快照；文本可追溯为 ChatGPT 对混合输入生成的整合稿 | [`../07_Validation_Records/Publication_Snapshots/PUB-2026-002_为什么需要责任型社会制度_用户提供快照.md`](../07_Validation_Records/Publication_Snapshots/PUB-2026-002_为什么需要责任型社会制度_用户提供快照.md) | `1927410de97e0a9a6f299f074b324ccd348c385ccc6039eb49fe474b94dbdad3` | 保存项目发起者提供并公开发布的文本；思想素材归属混合，不等于作者独立逐句写作、当前白皮书、事实核查或机制确认 |
+| `SRC-C4E8173B` | public-feedback-screenshot | 知乎新增制度工程评论截图，显示公开名称“维拉”及回复上下文 | [`../06_Current_Round_Source_Notes/2026-08-24_两篇外发正文快照与制度工程评论整合边界.md`](../06_Current_Round_Source_Notes/2026-08-24_两篇外发正文快照与制度工程评论整合边界.md) | `e1f7e86a64113d3390cb37924978132be5ead14091e7958ea24f5f6f1729c2ef` | 只证明项目收到截图中的公开评论；真实身份、所属页面、精确时间和 permalink 待核 |
+| `SRC-73F2A690` | project-source-mapping-direction | 项目发起者说明两份 Markdown 分别对应两个知乎链接，图片是新增评论，长段文字是另一段 AI 对话建议 | [`../06_Current_Round_Source_Notes/2026-08-24_两篇外发正文快照与制度工程评论整合边界.md`](../06_Current_Round_Source_Notes/2026-08-24_两篇外发正文快照与制度工程评论整合边界.md) | `not-recorded` | 只确认来源映射、角色边界并授权兼容性整理；不确认 AI 建议、评论判断或固定实施路线 |
+| `SRC-6B2F8E71` | project-direction-and-confirmation | 项目发起者确认冻结第一原则 v1.0，并要求建立司法解释草案、四份人生周期走查、公共责任缺席候选机制及 40 岁转行首次外部验证方案；生育仅作法律、伦理和匿名情境评审 | [`../06_Current_Round_Source_Notes/2026-08-25_第一原则司法解释人生周期与验证范围确认.md`](../06_Current_Round_Source_Notes/2026-08-25_第一原则司法解释人生周期与验证范围确认.md) | `not-recorded` | 只确认 `D-030`、`D-031`、`PCR-4D7A31` 与 `PCR-E9C2B5` 的范围；不表示机制参数、走查事实、验证结果、法律效力或现实实施许可成立 |
+| `SRC-8F6C3A21` | project-release-direction-and-confirmation | 项目发起者要求在内容复核通过后继续公开反馈后三步稿，并把当前项目作为 `v0.3.0` 发布到已确认的公开 GitHub 仓库 | [`PROJECT_INITIATOR_CONFIRMATION_v0.3.0.md`](PROJECT_INITIATOR_CONFIRMATION_v0.3.0.md) | `not-recorded` | 只确认 `D-032`、`PCR-C47D91` 和公开研究快照范围；不等于草案逐句批准、事实核查、验证状态升级、知乎重发或现实实施授权 |
+
+## 当前来源之间的关系
+
+下表只说明表征、版本和讨论关系，不提高证据等级。相同内容在多个文件中出现，不得按多个独立来源累计支持度。
+
+| Source ID | 关系 | 相关 Source ID | 审计含义 |
+|---|---|---|---|
+| `SRC-4A9B7737` | `extended-export-of` | `SRC-6D86EDE1` | 新导出覆盖旧导出并增加 AI 尾段；重叠内容只计一次 |
+| `SRC-36B8328B` | `extended-reexport-of` | `SRC-030E9D25` | 内容扩展且导出形式有变化；不是对旧材料的独立佐证 |
+| `SRC-96A55F12` | `contains-later-local-representation-of` | `SRC-A2D7F914` | 保存 `D-025` 作者方向的后来本地表征；不倒改原确认来源，也不重复计证据 |
+| `SRC-E189AD08` | `embedded-representation-in` | `SRC-36B8328B` | 同一候选文章也出现在扩展对话用户区块中；两者不是独立作者确认 |
+| `SRC-D1C279AA` | `embedded-representation-in` | `SRC-36B8328B` | 同一候选文章也出现在扩展对话用户区块中；两者不是独立作者确认 |
+| `SRC-71AADD11` | `discusses` | `SRC-7F523911`、`SRC-384C102C`、`SRC-E189AD08`、`SRC-D1C279AA` | 后段是 AI 对四篇候选文章的衔接评论，不是四份文章的外部复核 |
+| `SRC-91E4C7A2` | `follow-up-discussion-of` | `SRC-36B8328B` | 新文件是后续局部反馈线程，不是旧导出的覆盖版或独立作者确认 |
+| `SRC-91E4C7A2` | `discusses` | `SRC-E189AD08`、`SRC-D1C279AA` | 反馈与 AI 分析讨论价格、人格、存在及制度衔接；不构成对两篇候选正文的独立事实佐证 |
+| `SRC-A6F2D8B9` | `extended-feedback-export-of` | `SRC-4A9B7737` | 新导出加入公开反馈、截图及后续 AI 分析；重叠旧稿与旧对话只计一次 |
+| `SRC-8D6B4E21` | `publication-snapshot-of-text-in` | `SRC-4A9B7737` | 用户提供的公开正文与旧混合导出中的稿件同源；不作为第二项作者确认 |
+| `SRC-2A9C7F40` | `publication-variant-derived-from` | `SRC-36B8328B` | 公开正文来自混合导出中的 AI 整合稿并形成发布变体；不倒称为独立作者原稿 |
+| `SRC-A6F2D8B9` | `feedback-about` | `SRC-8D6B4E21` | 反馈扩展导出讨论第一篇外发正文；重叠内容和反馈不累计为多个独立发布版本 |
+| `SRC-91E4C7A2` | `feedback-about` | `SRC-2A9C7F40` | 后续反馈线程讨论第二篇外发正文；AI 分析不等于外部复核 |
+| `SRC-C4E8173B` | `provisionally-comment-on` | `SRC-2A9C7F40` | 按现有讨论链暂关联第二篇；截图缺页面地址，取得 permalink 后复核 |
+| `SRC-73F2A690` | `confirms-publication-mapping-for` | `SRC-8D6B4E21`、`SRC-2A9C7F40` | 只确认文件与问题页的映射，不提高正文作者或事实等级 |
+
+## v0.3.0 外部研究来源
+
+| Source ID | 来源类别 | 最小描述 | 稳定入口 | 内容哈希 | 使用边界 |
+|---|---|---|---|---|---|
+| `SRC-A13F6C90` | official-law | 《中华人民共和国社会保险法》全国人大官网文本 | <https://www.npc.gov.cn/npc/c2/c10134/201905/t20190522_175815.html> | `not-recorded` | 仅作 40 岁转行现制国家级社会保险法律起点；具体离职衔接、待遇与办理仍须选定地域并核查当期规则 |
+| `SRC-5D0B7E42` | official-law | 《中华人民共和国就业促进法》人力资源和社会保障部官网文本 | <https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/zcfg/fl/202011/t20201102_394626.html?xxgkhide=1> | `not-recorded` | 用于核查自主择业、平等就业、公共就业服务与职业培训的国家级法律基线；不证明现实可及性或地方执行效果 |
+| `SRC-92C4F1D8` | official-law | 《中华人民共和国职业教育法》教育部官网文本 | <https://www.moe.gov.cn/jyb_sjzl/sjzl_zcfg/zcfg_jyfl/202204/t20220421_620064.html> | `not-recorded` | 用于核查职业教育与终身学习的法律入口；具体培训容量、学费、认证和就业结果仍须外部复核 |
+| `SRC-3E8A6B51` | official-policy | 人力资源和社会保障部关于健全全国统一社会保险公共服务平台的意见（2025） | <https://www.mohrss.gov.cn/xxgk2020/fdzdgknr/qt/gztz/202503/t20250318_538687.html> | `not-recorded` | 仅说明国家层面对转移接续和灵活就业参保服务的当前政策方向；不据此假定各地流程已经无缝或保障完全连续 |
 
 ## v0.2.9 外部研究来源
 

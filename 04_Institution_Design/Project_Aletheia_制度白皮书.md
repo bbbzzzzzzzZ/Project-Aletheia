@@ -2,12 +2,14 @@
 title: Project Aletheia 制度白皮书——责任型社会制度框架
 layer: institution
 status: draft
-version: 0.2.9
-updated: 2026-08-21
+version: 0.3.0
+updated: 2026-08-24
 document_type: framework
 source_type: multi-source-synthesis
-source_ids: SRC-6D86EDE1, SRC-2FBF8D1E, SRC-030E9D25, SRC-8B21C4D0
-author_review: pending
+source_ids: SRC-6D86EDE1, SRC-2FBF8D1E, SRC-030E9D25, SRC-8B21C4D0, SRC-91E4C7A2, SRC-A6F2D8B9, SRC-5C7E1A84, SRC-C4E8173B, SRC-73F2A690
+author_review: partial
+author_review_scope: seven-core-propositions-and-bounded-case-candidate-confirmed
+author_review_source: SRC-B60C2F17
 fact_check: pending
 ---
 
@@ -35,6 +37,8 @@ fact_check: pending
 Project Aletheia 因此不从“怎样让社会机器更高效”开始，而从一个更基础的问题开始：
 
 > 社会怎样维护共同生活所需的条件，同时不把具体的人变成制度的材料？
+
+这只是研究切口，不是预设答案。项目不假定所有现代社会问题都来自同一种“错位”，而是具体检查：需要归属于谁，成本由谁承担，谁作出共同决定，谁获得执行权限，评价又对谁产生了超出原用途的影响。每一项都必须与已有理论、现实制度和更简单的竞争解释比较；在完成这种比较前，Aletheia 不能仅凭重新命名概念宣称提出了全新方案。比较工作见 [`研究问题与既有方案地图`](../08_Research_Workbench/01_Source_and_Priority_Maps/Project_Aletheia_研究问题与既有方案地图.md)。
 
 这项研究面对的核心张力不是“个人还是社会”二选一。人需要他人和共同条件，也需要保有自己的身体、时间、关系和生活方向。共同责任如果完全缺失，必要服务可能无法持续；共同责任如果没有边界，自由又会被公共目标吞没。
 
@@ -78,6 +82,8 @@ Project Aletheia 因此不从“怎样让社会机器更高效”开始，而从
 
 后续所有制度模块都必须能解释自己怎样落实这些命题，又可能在哪里违背它们。
 
+项目发起者已经确认以上七条的当前普通语言方向；这使本文相关部分完成了中心方向审阅，不表示白皮书其他段落已经逐句批准，也不表示事实核查、实践者复核或现实验证已经完成。
+
 ## 四、先判断需求归属，再谈第一责任
 
 一个需要发生在谁身上、由谁说出来，不一定表示它只属于这个人。
@@ -119,6 +125,8 @@ Project Aletheia 因此不从“怎样让社会机器更高效”开始，而从
 - 本人是否具有当下相关能力，任务条件是否安全、合理；
 - 健康、照护、创伤、年龄、隐私和其他正当理由能否进入延期、替代、豁免和申诉；
 - 任务范围、期限、补偿、恢复和退出条件是否明确。
+
+项目发起者此次只确认继续保留这一分支为待研究候选；上述条件、个案程序、现实效力和最终是否采用都尚未确定。
 
 ### 3. 承担者可以做什么
 
@@ -210,7 +218,19 @@ Project Aletheia 目前只能确定方向和边界，不能声称已经完成制
 - **机制层**研究任务、机构、轮换、记录、监督、申诉和退出可能怎样运行；
 - **实施层**才处理参数、法条、算法、表单、系统设计与具体机构。
 
-本文只处于第一层。年度责任记录、任务系数、专业评价、权力控制矩阵、公共服务储备和具体轮换办法，均由相应机制文件维护。任何机制只有在受影响者、实践者、反例和失败条件中经过验证后，才可能进入更具体的实施研究。
+本文只处于第一层。[`Project_Aletheia_机制层总览草案.md`](Project_Aletheia_机制层总览草案.md)先把公共认定、任务封套、具体承担、最小授权与关键服务连续性连接成候选运行链；年度责任记录、任务系数、专业评价、权力控制矩阵、公共服务储备和具体轮换办法，仍由相应专题机制文件维护。任何机制只有在受影响者、实践者、反例和失败条件中经过验证后，才可能进入更具体的实施研究。
+
+### 现实比较是进入实施研究的前置条件
+
+价值方向和候选机制不能直接证明现实方案更好。每一项候选改变至少要回答：
+
+- **现行基线是什么？** 限定具体地域、时期、机构、规则与受影响者；
+- **旧制度哪些功能必须保留？** 不能只列痛点，也要说明现行安排已经解决的协调、专业安全、连续性与救济；
+- **为什么选择这一改动？** 同时比较维持现状、较小幅度修补和候选机制；
+- **收益、代价和资源落在谁身上？** 分开常态成本、转换成本、机会成本与最坏受影响者；
+- **怎样小规模、可逆地检验？** 写明合法权限、支撑制度、进入条件、备用服务、停止、回滚、修复和补偿。
+
+这五问不是第八条公众命题，也不是已经确认的实施阶段。完整记录格式由 [《制度压力测试协议》](../06_Criticism_and_Failure/制度压力测试协议.md) 维护；未完成现实基线、竞争方案、成本分布和回滚准备时，候选机制只能停留在内部研究。
 
 白皮书的下一步不是继续增加宏大原则，而是选择边界明确的场景检验接口。例如：
 
@@ -225,11 +245,14 @@ Project Aletheia 目前只能确定方向和边界，不能声称已经完成制
 ## 相关入口
 
 - 普通读者十分钟版：[`../07_Writing/Project_Overview/项目总纲.md`](../07_Writing/Project_Overview/项目总纲.md)
+- 机制层总览草案：[`Project_Aletheia_机制层总览草案.md`](Project_Aletheia_机制层总览草案.md)
 - 世界观：[`../03_Aletheia_Framework/世界观.md`](../03_Aletheia_Framework/世界观.md)
 - 第一原则：[`../03_Aletheia_Framework/第一原则.md`](../03_Aletheia_Framework/第一原则.md)
 - 需求归属与公共需求责任：[`../03_Aletheia_Framework/需求归属与公共需求责任.md`](../03_Aletheia_Framework/需求归属与公共需求责任.md)
 - 决策模型：[`../03_Aletheia_Framework/决策模型.md`](../03_Aletheia_Framework/决策模型.md)
 - 制度生成语法：[`../03_Aletheia_Framework/制度生成语法.md`](../03_Aletheia_Framework/制度生成语法.md)
+- 制度工程比较与回滚协议：[`../06_Criticism_and_Failure/制度压力测试协议.md`](../06_Criticism_and_Failure/制度压力测试协议.md)
 - 完整制度模块：[`README.md`](README.md)
 - 开放问题：[`../03_Aletheia_Framework/Open_Problems_List.md`](../03_Aletheia_Framework/Open_Problems_List.md)
 - 本轮来源边界：[`../08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md`](../08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-21_三份对话与制度白皮书整合边界.md)
+- 外发正文与制度工程评论边界：[`../08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-24_两篇外发正文快照与制度工程评论整合边界.md`](../08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-24_两篇外发正文快照与制度工程评论整合边界.md)

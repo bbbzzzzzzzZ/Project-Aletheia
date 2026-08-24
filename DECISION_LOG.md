@@ -2,8 +2,8 @@
 title: Decision Log
 layer: project-governance
 status: stable
-version: 0.2.9
-updated: 2026-08-20
+version: 0.3.0
+updated: 2026-08-25
 ---
 
 # Decision Log
@@ -420,6 +420,78 @@ updated: 2026-08-20
 - 理由：需求体验、需求归属、组织承接和具体执行处在不同层次。把第一责任放回需求归属主体，可以同时阻止公共医疗等共同需要被推回给病人，也阻止私人偏好或组织利益因被表达而自动公共化。
 - 后果：新增《需求归属与公共需求责任》作为独立 `draft`；术语、第一原则、需求与责任模型和劳动制度入口同步增加归属层；根 README 与普通读者总纲用普通语言说明“私人需求个人先负责，公共需求公众先负责”；既有四层机制边界扩展为五层显示，历史记录不倒改。
 - 未采用方案：谁最先求助谁第一负责；谁正在痛苦谁负责公共系统缺口；公众第一责任等于每名成员承担相同任务；能力或专业身份自动产生执行义务；把共享对话里的 AI 分类和角色表整体标为作者结论；把所有人可能需要当成公共需求的唯一充分条件。
+
+## D-029 · 确认七条公众核心命题与五篇思想书中心
+
+- 状态：Accepted
+- 日期：2026-08-23
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-B60C2F`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：确认《项目总纲》第二节当前七条命题作为唯一一套对外普通语言核心命题，并确认五篇思想书候选正文的中心问题；确认有限、有约束力的公共责任个案继续保留为待研究候选，不升级为已经采用或验证的机制。
+- source_ids：`SRC-B60C2F17`
+- supersedes：不取代既有理论决定；补充现行公众表达与作者审阅状态。`D-018`、`D-028` 的公共责任边界继续有效，候选机制的验证资格不变。
+- affected_documents：`07_Writing/Project_Overview/项目总纲.md`、`07_Writing/Thought_Book/` 五篇候选正文与 README、`04_Institution_Design/Project_Aletheia_制度白皮书.md`、`04_Institution_Design/Project_Aletheia_机制层总览草案.md`、`DOCUMENT_STATUS.md`、`ROADMAP.md`、`CHANGELOG.md` 及来源确认记录。
+- unresolved_questions：总纲其他段落、五篇正文具体措辞和第一人称的逐段确认；相关事实核查；机制竞争方案、触发条件、分配程序、补偿、豁免、退出、申诉、停止线和现实效果。
+- 背景：项目已经形成七条公众命题、五篇思想书正文和机制层候选分支，但作者确认状态仍统一显示为 `pending`，无法区分“中心方向已经确认”与“全文尚未逐段审阅”。
+- 决定：七条公众命题继续作为根 README、项目总纲、白皮书与公众写作共用的表达基线；五篇思想书的中心问题属于作者希望继续讨论的方向。公共需求成立且公众与机构先行责任已经履行后，正常岗位与自愿承诺仍不足时，有限、可申诉、有补偿和退出条件的有约束力公共责任个案继续留在候选机制集中；现行机制中另有的豁免、延期和替代等保护边界保持原状态，不因本轮确认扩大或缩小。
+- 理由：中心确认应当能够跨文档复用，同时又必须与逐句作者确认、事实核查、现实参与和机制验证分开。保留候选允许项目比较替代方案，不等于提前接受强制机制。
+- 后果：相关文稿的 `author_review` 更新为 `partial` 并记录确认范围；所有文稿继续保持 `draft`，事实核查继续 `pending`，白皮书与机制层验证状态继续 `not-ready`。
+- 未采用方案：把“全部同意”解释为整份总纲、白皮书或第一原则逐句批准；把五篇中心确认解释为现有第一人称和事实主张全部属于作者；把“保留候选”解释为一般个人义务、具体派工、处罚方案、实施授权或现实有效性已经成立。
+
+## D-030 · 冻结 Aletheia 第一原则 v1.0 的规范语义
+
+- 状态：Accepted
+- 日期：2026-08-25
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-4D7A31`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：冻结《第一原则》现有十一项核心公理与禁区的规范语义，形成“Aletheia 第一原则 v1.0”；本轮人生周期、公共责任缺席后果、亲职福利、司法接口、计量参数和外部验证细节明确排除。
+- source_ids：`SRC-6B2F8E71`
+- supersedes：不取代任何既有原则决定；把截至 `D-029` 已形成的十一公理与禁区固定为可追溯语义基线。后续新增或实质修改必须另建决定并说明版本变化。
+- affected_documents：`03_Aletheia_Framework/第一原则.md`、`03_Aletheia_Framework/第一原则_v1.0_语义冻结.md`、`03_Aletheia_Framework/README.md`、`DOCUMENT_STATUS.md`、`ROADMAP.md`、`PROJECT_INDEX.md`、`CHANGELOG.md` 及来源确认记录。
+- unresolved_questions：公理的事实支撑、反例、适用范围和跨场景验证；推论、形成问题、制度生成入口与机制接口的继续修订；未来何种变化构成 `v1.1` 或 `v2.0`。
+- 背景：第一原则已经形成十一项公理和成组禁区，但此前 `draft` 状态无法区分“规范方向仍可随时漂移”与“经验、推论和机制仍待验证”。本轮又同时提出人生周期、司法解释和缺席后果，必须防止下游方案随原则一起被误冻结。
+- 决定：以《第一原则》现有十一项公理和全部禁区为唯一冻结对象。冻结表示项目在当前范围内以这些规范语义作为稳定上游基线；不表示公理是科学定律、现实法律、公共授权或已验证制度，也不冻结文字润色、链接、证据补充和明确排除的下游机制。
+- 理由：稳定的上游边界可以减少下游文件反复漂移；把语义冻结与事实验证、机制采用和实施授权分开，又能保留反例修订和现实检验空间。
+- 后果：`第一原则.md` 在其冻结范围内转为 `stable`，另建语义冻结记录；十一公理和禁区外的内容继续按原有命题层级研究，所有本轮机制草案保持 `draft/not-ready`。
+- 未采用方案：把整份《第一原则》的每句说明都冻结；把稳定状态写成哲学或经验上的最终真理；将缺席处分、福利范围、亲职条件、司法程序、积分公式、任务时长或验证结果纳入 v1.0。
+
+## D-031 · 建立司法解释接口、人生周期走查与首轮外部验证边界
+
+- 状态：Accepted
+- 日期：2026-08-25
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-E9C2B5`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：接受建立“四种解释方法＋贯穿式主体接口”的司法解释草案；按 40 岁转行、18 岁转衔、80 岁照护、出生与亲职的顺序建立内部走查；把公共责任缺席后果另列候选机制；首次外部验证只准备 40 岁转行三方案复核，生育只允许法律、伦理和匿名情境评审。
+- source_ids：`SRC-6B2F8E71`
+- supersedes：不改变司法组织四层、既有生命阶段原则或有限公共责任定义；只增加研究接口、走查顺序和验证范围。缺席后果继续受 `D-018`、`D-025` 的未决参数边界约束。
+- affected_documents：`04_Institution_Design/Constitutional_and_Legal_System/司法解释体系.md`、`06_Criticism_and_Failure/Lifecycle_Walkthroughs/`、`04_Institution_Design/Labor_System/Mechanisms/公共责任缺席与后果_候选机制.md`、`08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_首次外部验证方案.md` 及相关导航、状态、路线图和来源记录。
+- unresolved_questions：司法解释方法的冲突权重与案件记录格式；四份走查的作者审阅和事实核查；缺席分类、证据、后果白名单和救济；40 岁转行首轮地域、就业类型、邀请材料、同意与记录协议；生育场景的独立法律伦理复核。
+- 背景：项目已经具备规范地基和候选机制总览，但仍缺少从人的完整生命阶段检查制度接口的统一走查；外部评论也要求固定现制基线、比较代价并由现实角色复核。生育场景具有不可逆、隐私和歧视风险，不适合成为首轮现实试验。
+- 决定：司法解释采用文字、整体结构、规范目的和现实后果四种方法，主体接口贯穿四法而不构成第五种解释法或司法组织第五层。四份人生周期材料只作内部假设走查。缺席与后果独立成候选机制，不进入第一原则。首次外部验证聚焦 40 岁转行，固定同一基线并比较现制、局部修补和 Aletheia 候选，由五类现实角色复核；生育仅作法律、伦理和匿名合成情境评审，禁止现实制度试验。
+- 理由：把规范、解释、机制、内部走查和外部验证分开，可以在不提前实施高风险方案的情况下暴露接口冲突；从风险较低、可撤回的转行场景开始，也比以儿童和生育作为首轮实验对象更符合停止线。
+- 后果：新增一份司法草案、四份生命周期走查、一份缺席候选机制和一份拟议外部验证方案；所有新增研究对象均保留 `draft/not-ready` 或 `proposed-unstarted`，不因本决定获得现实效力。
+- 未采用方案：把主体接口称为第五种解释法；把内部走查称为验证；从年龄、亲属、能力或行业身份自动产生义务；把福利、处分或亲职条件写入第一原则；向真实生育者、儿童或家庭试运行未经法律伦理审查的制度。
+
+## D-032 · 发布 v0.3.0 公共研究快照并单列反馈后三步稿
+
+- 状态：Accepted
+- 日期：2026-08-25
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-C47D91`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：接受把截至本轮已登记的项目状态作为 `v0.3.0` 公共研究快照发布；接受《一个公共事项，为什么要分成三步？》作为反馈后探索稿随 GitHub 快照公开并单列 `PUB-2026-003`。发布不等于全文作者批准、事实核查、现实验证、知乎重发或实施授权。
+- source_ids：`SRC-8F6C3A21`
+- supersedes：不取代任何理论或机制决定；只结束本轮 `Unreleased` 发布准备，并补充 `D-027` 的公众稿发布史。`PUB-2026-001`、`PUB-2026-002` 及其历史快照继续保留。
+- affected_documents：`VERSION.md`、`README.md`、`CHANGELOG.md`、`RELEASE_CHECKSUMS.md`、`DOCUMENT_STATUS.md`、`ROADMAP.md`、`07_Writing/External_Discussion/`、`08_Research_Workbench/07_Validation_Records/`、本确认文件及相关来源、状态和导航文件。
+- unresolved_questions：当前知乎页面与反馈后稿是否逐段一致；平台编辑历史与缺失 permalink；五篇思想书、白皮书和机制总览的全文作者审阅与事实核查；40 岁转行外部验证的地域、就业类型和参与者招募。
+- 背景：v0.2.9 之后，项目形成需求归属与公众第一责任、第一原则 v1.0 语义冻结、七条公众命题、制度白皮书与五机制研究结构、司法解释草案、人生周期走查、缺席后果候选、公众反馈记录和首轮外部验证计划。公众“三步”稿已吸收资源承诺、成本转移和制度工程反馈，但旧知乎版本与当前修订稿必须分开。
+- 决定：以 Markdown 白名单冻结并公开 `v0.3.0` 研究快照；保持所有草案和验证状态原样。反馈后三步稿以 GitHub `v0.3.0` 快照作为 `PUB-2026-003` 的冻结表征，不宣称知乎同步更新。
+- 理由：版本发布应让当前研究状态可公开核对，同时不能把仓库可见性误写成内容定稿或制度有效性。单列新 PUB 记录可以保留旧稿、反馈和修订之间的版本关系。
+- 后果：生成 `v0.3.0`；`main` 与 `v0.3.0` 快照分支指向同一发布提交；`Unreleased` 记录进入正式版本段；下一轮工作重新从空的 `Unreleased` 开始。
+- 未采用方案：把全库文件机械改为同一版本；把所有 `draft` 升为 `stable`；把 GitHub 发布当作知乎重发、作者逐句批准、事实核查完成或现实制度验证；覆盖历史 PUB 快照；上传 `.DS_Store`、外部附件或本机杂项。
 
 ## 新增决定模板
 
