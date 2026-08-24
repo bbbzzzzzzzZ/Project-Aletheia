@@ -17,8 +17,10 @@ updated: 2026-08-25
 - 70 个 Source ID 均有唯一主登记；所有正文引用的 Source ID 均可回到 [`SOURCE_REGISTRY.md`](08_Research_Workbench/05_Provenance_and_Decision_Records/SOURCE_REGISTRY.md)。
 - 所有 Markdown 均可按 UTF-8 读取，front matter 必填字段完整，状态值合法，代码围栏闭合，并以换行结束。
 - 成熟度分布：`draft` 109、`question` 23、`template` 16、`stable` 30、`archive` 51、仅供冻结确认记录使用的 `confirmed` 3。
+- 内容清单 SHA-256：`3f0b150b8ca7fbb447d5317f3bee72351c9e862fbeff85dffe226736314abd33`。计算方式为按相对路径排序，将除本文件外的 231 份 Markdown 写成 `<文件 SHA-256><两个空格><相对路径>\n` 后再取 SHA-256；排除本文件用于避免自引用循环。
 - 第一原则只冻结十一公理与禁区的规范语义；司法解释、候选机制、人生周期、公众稿及验证方案继续保留各自草案与验证状态。
 - 反馈后三步稿以 `PUB-2026-003` 作为 GitHub 研究快照公开；其 `author_review: pending` 与 `fact_check: pending` 不因公开而改变，GitHub 收录也不表示知乎页面已同步。
+- `PUB-2026-003` 正文 SHA-256：`ae9a66079ea2cc7a98d890f3c0da293920b12824616e19ce3f0810b722c627cc`。
 - 发布范围由 `D-032`、`PCR-C47D91`、`SRC-8F6C3A21` 与 [`PROJECT_INITIATOR_CONFIRMATION_v0.3.0.md`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_INITIATOR_CONFIRMATION_v0.3.0.md) 互相约束。
 - 发布树排除 7 个 `.DS_Store`，不包含外部附件全文、ZIP、AppleDouble `._*`、脚本、可执行文件、符号链接或本机杂项。
 - `main` 与 `v0.3.0` 快照分支在发布后核对为同一提交；准确提交 SHA 和最终 ZIP SHA-256 由 GitHub 历史及交付消息保存，避免自引用造成循环变化。
