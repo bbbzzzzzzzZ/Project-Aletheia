@@ -2,13 +2,13 @@
 title: Document Status
 layer: project-governance
 status: stable
-version: 0.3.0
-updated: 2026-08-25
+version: 0.3.1
+updated: 2026-09-15
 ---
 
 # Document Status
 
-更新时间：`2026-08-25`
+更新时间：`2026-09-15`
 
 ## 状态口径
 
@@ -43,6 +43,7 @@ updated: 2026-08-25
 | 权力—责任—决策接口 | [`03_Aletheia_Framework/权力_责任_决策交叉一致性表.md`](03_Aletheia_Framework/权力_责任_决策交叉一致性表.md) | draft | `ready-for-validation` | 已完成文本内交叉审计，尚无现实项目或机构流程复测 | 选取一个公共项目和一个紧急事项逐阶段映射 |
 | 谁代表共同需求 | `决策模型.md`、`Political_System/代表机制.md` | question | `not-ready` | 代表范围、事项适配程序和参与方案仍未收束，不能把“缺参与者”当作唯一问题 | 先形成两个可比较代表方案及失败条件，再邀请受影响者复核 |
 | 开放主体人类模型 | `02_Human_Nature/开放主体模型.md` | draft | `ready-for-validation` | 缺生命周期、跨文化、残障与能力变化的证据和参与记录 | 制定证据综述问题表，并招募不同生命阶段参与者评议 |
+| 哲学理论基础与制度推论 | [`03_Aletheia_Framework/哲学理论基础与制度推论.md`](03_Aletheia_Framework/哲学理论基础与制度推论.md) | draft | `not-ready` | 已整理四类命题层级、弱者选择权、创新公共回流、劳动主体承认和冲突不可逆伤害边界；但经验假设、创新公共化程序、效率分配、弱者选择后果和不可逆伤害判定仍缺外部证据、竞争解释和场景测试 | 先完成作者复核，再分别设计创新回流、劳动效率回馈和弱者选择权的反例卡、竞争方案与停止线 |
 | 需求归属、个人需求责任与非等级互助 | [`03_Aletheia_Framework/需求归属与公共需求责任.md`](03_Aletheia_Framework/需求归属与公共需求责任.md)、`责任模型.md`、`公共责任制度.md` | draft | `not-ready` | 已补入公众第一责任，但无障碍摘要、场景题、参与保护、退出和反馈回写规则尚未齐备，也尚缺患者、残障者、照护者、维权者和一线服务者复核 | 先准备无障碍摘要和医疗、无障碍、照护、组织缺口、私人高成本偏好场景题及参与保护协议，再邀请小组评议 |
 | 项目级制度白皮书 | [`04_Institution_Design/Project_Aletheia_制度白皮书.md`](04_Institution_Design/Project_Aletheia_制度白皮书.md) | draft | `not-ready` | 七条公众命题已获作者方向确认，并补入现实比较入口；其他措辞、事实核查、现实基线比较、模块实践者审阅和跨场景失败测试尚未完成 | 先完成其余段落作者审阅，再用一份具体场景比较卡检查现制功能、候选收益、转换成本、停止和回滚 |
 | 项目级机制层总览 | [`04_Institution_Design/Project_Aletheia_机制层总览草案.md`](04_Institution_Design/Project_Aletheia_机制层总览草案.md)、[`五机制交叉表`](04_Institution_Design/Project_Aletheia_五机制交叉表.md) | draft | `not-ready` | 已完成现有专题、竞争方案、停止线、制度工程比较字段和三次内部假设走查；但全文尚待作者复核，方案尚未选择，且没有现实基线、实践者、受影响者或现场证据 | 先复核交叉表和比较协议，再选择一个真实场景形成现行基线、竞争方案、参与保护、记录方法和失败条件齐备的验证包 |
@@ -51,7 +52,7 @@ updated: 2026-08-25
 | 司法解释体系 | [`04_Institution_Design/Constitutional_and_Legal_System/司法解释体系.md`](04_Institution_Design/Constitutional_and_Legal_System/司法解释体系.md) | draft | `not-ready` | 四种方法与贯穿式主体接口已形成草案，但比较法、案件样本、主体参与、代理冲突和记录格式尚未复核 | 先以匿名案件卡比较解释理由和失败停止线，再邀请法律实践者与受影响者审阅 |
 | 四阶段人生周期内部走查 | [`06_Criticism_and_Failure/Lifecycle_Walkthroughs/README.md`](06_Criticism_and_Failure/Lifecycle_Walkthroughs/README.md) | draft | `not-ready` | 四份材料均为假设输入，作者审阅、事实核查和外部参与尚未完成；出生与亲职明确禁止现实制度试验 | 依次复核 40 岁转行、18 岁转衔、80 岁照护、出生与亲职；生育只做法律、伦理和匿名情境评审 |
 | 公共责任缺席与后果 | [`04_Institution_Design/Labor_System/Mechanisms/公共责任缺席与后果_候选机制.md`](04_Institution_Design/Labor_System/Mechanisms/公共责任缺席与后果_候选机制.md) | draft | `not-ready` | 已分无责任突发、轻微过失和恶意逃避，但证据规则、竞争方案、后果白名单、恢复与申诉尚未完成 | 先比较仅重排、任务内修复与同机制非基本权益限期调整三类方案；基本保障、综合信用和自动派工保持停止 |
-| 40 岁转行首次外部验证 | [`08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_首次外部验证方案.md`](08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_首次外部验证方案.md) | draft | `not-ready` | 国家级现制资料与三套方案已建；尚未选定具体地域和就业类型，访谈材料、同意、存储规则和联系人未完成，邀请尚未发出 | 选定一个地域和就业类型，冻结当地基线，完成参与保护及统一问题表后，再向五组复核者发出邀请 |
+| 40 岁转行首次外部验证 | [`08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_首次外部验证方案.md`](08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_首次外部验证方案.md) | draft | `not-ready` | 已形成普通机构直聘主线、一般/高端机构与派遣/长护险分支、三方案复核包和补贴证据分层；工资拆分、合同、订单、工时、机构成本、实践预核、邀请及资料治理仍未完成 | 先核验法定雇主、合同、工资/工时、社保和三类补贴，再由七类实践与权益视角预核材料；随后才准备邀请与参与治理 |
 | 儿童公共照护与成长自主 | `Education_System/儿童公共照护与成长自主.md` | question | `not-ready` | 仍缺具体候选机制、年龄与支持性决定边界；儿童参与也需独立伦理和保护方案 | 先完成参与保护协议和两个候选照护模型 |
 | 有限互惠公共责任任务 | `Labor_System/Mechanisms/有限互惠公共责任机制.md` | draft | `ready-for-validation` | 缺医疗、照护、消防、能源等不同连续性场景数据 | 对每类服务分别建立最低覆盖、能力、负担、豁免和中断测试 |
 | 责任积分与领域专业评价 | `Incentive_System/责任积分、贡献积分与领域专业评价.md` | draft | `ready-for-validation` | 缺跨行业任务样本、质量证据、刷分与定价权俘获测试 | 选择医疗、照护、工程、清洁各一组任务试算，不先确定统一参数 |
@@ -74,7 +75,7 @@ updated: 2026-08-25
 
 ## 核心文档状态
 
-### v0.3.0 新增与修订文档
+### v0.3.0 与其后 Unreleased 新增与修订文档
 
 | 文档 | 状态 | 当前用途 | 升级条件 |
 |---|---|---|---|
@@ -86,7 +87,7 @@ updated: 2026-08-25
 | `04_Institution_Design/Constitutional_and_Legal_System/司法解释体系.md` | draft | 四种解释方法与贯穿式主体接口的内部制度草案；不构成现实法律意见 | 完成作者审阅、比较法、匿名案件卡、法律实践者及受影响者复核 |
 | `06_Criticism_and_Failure/Lifecycle_Walkthroughs/` | draft | 按 40 岁转行、18 岁转衔、80 岁照护、出生与亲职保存四份内部假设走查 | 逐份完成作者审阅、事实核查和对应的外部材料；出生与亲职不得进入现实试验 |
 | `04_Institution_Design/Labor_System/Mechanisms/公共责任缺席与后果_候选机制.md` | draft | 研究已经正当成立的任务缺席后怎样区分原因、修复与候选后果；不进入第一原则 | 完成竞争方案、证据、后果白名单、独立复核、申诉、恢复与停止线后再评估验证准备度 |
-| `08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_首次外部验证方案.md` | draft | 保存固定基线与三方案、五类复核者和不干预边界；当前为 `proposed-unstarted` | 选定地域和就业类型，完成本地事实、邀请、同意、提问与记录协议后再启动 |
+| `08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_首次外部验证方案.md` | draft | 保存上海养老护理员收窄基线、普通机构主线、长护险/派遣/补贴分支、三方案、七类复核者、阶段性调查、政策与成本核对、招聘广告样本和不干预边界；当前为 `material-preparation` | 完成雇主、合同、工资、订单工时、机构成本、正规培训、实践预核对、敏感分支、邀请、同意、提问与记录协议，最后评估是否达到 `ready-for-validation` |
 | `08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-25_第一原则司法解释人生周期与验证范围确认.md` | archive | 记录本轮指令、采用范围、排除项和现实试验边界 | 永不直接升级；后续变化通过新决定、来源或验证记录追加 |
 | `08_Research_Workbench/01_Source_and_Priority_Maps/Project_Aletheia_研究问题与既有方案地图.md` | question | 把公众追问转成“具体问题—既有研究方向—项目暂定增量—竞争解释—证据缺口”比较骨架 | 用原典、综述、现实案例和最强竞争解释逐项填充；未完成前不作原创性声明 |
 | `08_Research_Workbench/06_Current_Round_Source_Notes/2026-08-24_两篇外发文章新增反馈与整合边界.md` | archive | 区分项目发起者话语、外部评论、AI 分析与本轮采用边界，并记录两个附件的哈希及表征关系 | 永不直接升级；后续变化以新反馈、事实核查或明确决定追加 |
@@ -213,14 +214,15 @@ updated: 2026-08-25
 | `03_Aletheia_Framework/README.md` | draft | 框架关系与导航 | 各模型接口稳定后复核 |
 | `03_Aletheia_Framework/研究与推理方法.md` | draft | 异常记录、命题分层、竞争解释、反例、证据复核与临时停止规则 | 用多个专题完整演练并补充来源审计流程 |
 | `03_Aletheia_Framework/世界观.md` | draft | 保存人、关系、社会与制度的当前方向，并明确人的问题可以停留在无需新建共同任务或规则的回应空间 | 完成作者复核，以跨文化、关系和生命阶段材料检验边界 |
+| `03_Aletheia_Framework/哲学理论基础与制度推论.md` | draft | 保存价值判断、事实判断、经验假设、制度推论的分层桥梁，以及弱者选择权、创新回流、劳动主体承认和冲突边界；不修改第一原则 v1.0 | 完成作者复核，并用场景反例检验经验假设、创新公共化、效率回馈和不可逆伤害边界 |
 | `03_Aletheia_Framework/制度生成语法.md` | draft | 只处理另行越过共同协调入口门槛的事项，区分任务、规则、承担依据、授权与退出 | 用多领域案例检验入口门槛、双循环接口与拒绝制度化的正常路径 |
 | `03_Aletheia_Framework/世界观与制度生成语法.md` | archive | 旧合并路径的迁移说明，不保存现行定义 | 只为历史链接保留；不得作为当前框架入口 |
 | `03_Aletheia_Framework/第一原则.md` | stable | Aletheia 第一原则 v1.0 的权威正文；稳定范围仅为十一公理与禁区的规范语义 | 按语义冻结记录维护；事实支撑、反例、推论和下游机制继续分别审查 |
 | `03_Aletheia_Framework/第一原则_v1.0_语义冻结.md` | stable | 冻结范围、排除项与版本变更纪律的治理入口 | 公理或禁区发生实质变化时另建决定并更新版本 |
-| `03_Aletheia_Framework/需求模型.md` | draft | 区分需求表达与公共义务 | 建立代表、冲突和撤回程序 |
+| `03_Aletheia_Framework/需求模型.md` | draft | 区分需求表达与公共义务；新增第二层自主发展与第四层外部协作发展的判定接口 | 建立代表、冲突和撤回程序；用资源冲突案例复核五层优先序边界 |
 | `03_Aletheia_Framework/责任模型.md` | draft | 请求、创设、受益、执行、决策授权与第三方影响的责任分账 | 解决不可预见影响、有限救助与集体责任边界 |
 | `03_Aletheia_Framework/权力模型.md` | draft | 有限授权与退出 | 建立紧急状态、监督者监督和救济闭环 |
-| `03_Aletheia_Framework/资源模型.md` | question | 资源分类、权利束及救济—预防—能力建设—象征激励的配置问题 | 完成稀缺、机会成本、生态、跨代与最坏受影响者边界 |
+| `03_Aletheia_Framework/资源模型.md` | question | 资源分类、权利束及救济—预防—能力建设—象征激励的配置问题；新增需求优先序与资源分配接口候选 | 完成稀缺、机会成本、生态、跨代与最坏受影响者边界；复核第二层与第四层在实际资源分配中的适用性 |
 | `03_Aletheia_Framework/决策模型.md` | question | 共同需求、跨时间配置与受影响者共同设计 | 完成代表性、少数保护、专家角色、参与支持和不参与保障机制 |
 | `03_Aletheia_Framework/反馈修正机制.md` | draft | 纠错与退出原则 | 建立试点、指标、申诉和日落流程 |
 | `04_Institution_Design/README.md` | draft | 应用层接口与导航 | 各模块上游依赖和反馈接口稳定 |

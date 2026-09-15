@@ -2,11 +2,31 @@
 title: Release Checksums
 layer: project-governance
 status: stable
-version: 0.3.0
-updated: 2026-08-25
+version: 0.4.0
+updated: 2026-09-15
 ---
 
 # Release Checksums
+
+## v0.4.0 GitHub 公共研究快照检查
+
+本节对应 2026-09-15 的 `v0.4.0` 公共研究快照。版本名称为“Aletheia 哲学理论 v0.4.0：人的主体性、公共责任与制度边界”。发布范围以项目 Markdown 白名单为准；文件可见不等于作者逐句批准、事实核查、现实验证或实施授权。
+
+- Markdown 文件：250 个。
+- 已检查 1,285 个项目内相对链接，无断链或越出项目根目录的链接。
+- 130 个 Source ID 均有唯一主登记；所有正文引用的 Source ID 均可回到 [`SOURCE_REGISTRY.md`](08_Research_Workbench/05_Provenance_and_Decision_Records/SOURCE_REGISTRY.md)。
+- 所有 Markdown 均可按 UTF-8 读取，front matter 必填字段完整，状态值合法，代码围栏闭合，并以换行结束。
+- 成熟度分布：`draft` 119、`question` 23、`template` 16、`stable` 30、`archive` 58、仅供冻结确认记录使用的 `confirmed` 4。
+- 内容清单 SHA-256：`34bd533d66bb3f5bd4c074ff9d4c6bc29b65e955814634c7066fb669c9171696`。计算方式为按相对路径排序，将除本文件外的 249 份 Markdown 写成 `<文件 SHA-256><两个空格><相对路径>\n` 后再取 SHA-256；排除本文件用于避免自引用循环。
+- 本版本新增《哲学理论基础与制度推论》，整理人的主体性、公共责任、弱者选择权、创新公共回流、劳动主体承认与不可逆伤害边界；该文档仍为 `draft / not-ready`，不升级为事实核查、外部验证或现实制度授权。
+- 第一原则 v1.0 仍只冻结十一公理与禁区的规范语义；本轮新增理论桥梁不修改《第一原则 v1.0》，也不把需求分层、培训安排、外部验证或养老护理现制材料写入第一原则。
+- 反馈后三步稿继续以 `PUB-2026-003` 作为 GitHub `v0.3.0` 研究快照公开记录；其 `author_review: pending` 与 `fact_check: pending` 不因 v0.4.0 发布而改变。
+- `PUB-2026-003` 正文 SHA-256：`ae9a66079ea2cc7a98d890f3c0da293920b12824616e19ce3f0810b722c627cc`。
+- 发布范围由 `D-036`、`PCR-4E0A1F`、`SRC-4E0A1F92` 与 [`PROJECT_INITIATOR_CONFIRMATION_v0.4.0.md`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_INITIATOR_CONFIRMATION_v0.4.0.md) 互相约束。
+- 发布树排除 7 个 `.DS_Store`，不包含外部附件全文、ZIP、AppleDouble `._*`、脚本、可执行文件、符号链接或本机杂项。
+- `main` 与 `v0.4.0` 快照分支在发布后应核对为同一提交；准确提交 SHA 和最终 ZIP SHA-256 由 GitHub 历史及交付消息保存，避免自引用造成循环变化。
+
+最终 ZIP 只从上述 250 份 Markdown 生成；非 ASCII 路径须带 UTF-8 标记，并在交付前再次执行 CRC、逐文件内容和 sidecar 校验。
 
 ## v0.3.0 GitHub 公共研究快照检查
 

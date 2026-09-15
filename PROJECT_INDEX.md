@@ -3,7 +3,7 @@ title: Project Aletheia 阅读与文档索引
 layer: project-governance
 status: stable
 version: 0.3.0
-updated: 2026-08-25
+updated: 2026-08-26
 ---
 
 # Project Aletheia 阅读与文档索引
@@ -62,7 +62,7 @@ updated: 2026-08-25
 - 想把候选机制与现行制度比较，并记录转换成本、支撑条件、可选验证方式、风险门槛、停止和回滚：读 [`06_Criticism_and_Failure/制度压力测试协议.md`](06_Criticism_and_Failure/制度压力测试协议.md)。
 - 想看五个候选机制在夜间急救、长期照护和能源连续性中的内部假设走查：从 [`06_Criticism_and_Failure/Mechanism_Walkthroughs/README.md`](06_Criticism_and_Failure/Mechanism_Walkthroughs/README.md) 开始；这些文件不是现实案例或验证记录。
 - 想按人的生命阶段检查制度接口：从 [`06_Criticism_and_Failure/Lifecycle_Walkthroughs/README.md`](06_Criticism_and_Failure/Lifecycle_Walkthroughs/README.md) 开始，依次读 40 岁转行、18 岁转衔、80 岁照护、出生与亲职；全部是内部假设走查。
-- 想查看首次外部验证怎样固定现制基线、比较三套方案并邀请五类复核者：读 [`40岁转行首次外部验证方案`](08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_首次外部验证方案.md)；当前尚未启动。
+- 想查看首次外部验证怎样用同一上海养老护理员情境比较三套方案，并由七类不可替代视角复核：读 [`40岁转行首次外部验证方案`](08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_首次外部验证方案.md)、[`上海现制基线`](08_Research_Workbench/07_Validation_Records/External_Validation_Plans/BASE-40-SH-CARE-2026-01_上海养老护理员现制基线.md)、[`招聘样本表`](08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_上海长护险招聘样本表.md)与[`统一复核材料`](08_Research_Workbench/07_Validation_Records/External_Validation_Plans/40岁转行_上海养老护理员统一复核材料.md)；当前只是材料准备，尚未发送邀请。
 - 想查看劳动任务机制的反例：读 [`06_Criticism_and_Failure/劳动任务系统压力测试.md`](06_Criticism_and_Failure/劳动任务系统压力测试.md)。
 - 想检查道德外包、定义权复制和退出成本转嫁：读 [`06_Criticism_and_Failure/道德外包、定义权与退出成本压力测试.md`](06_Criticism_and_Failure/道德外包、定义权与退出成本压力测试.md)。
 - 想用历史材料检验项目命题：从 [`05_Case_Studies/README.md`](05_Case_Studies/README.md) 开始；当前已有[多贝 Ju/’hoansi](05_Case_Studies/多贝朱霍安西_互惠网络与非正式权力.md)与[法戈尔危机](05_Case_Studies/蒙德拉贡法戈尔危机_合作所有权与成本分配.md)两个具体案例。

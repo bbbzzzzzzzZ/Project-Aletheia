@@ -2,8 +2,8 @@
 title: Decision Log
 layer: project-governance
 status: stable
-version: 0.3.0
-updated: 2026-08-25
+version: 0.4.0
+updated: 2026-09-15
 ---
 
 # Decision Log
@@ -492,6 +492,78 @@ updated: 2026-08-25
 - 理由：版本发布应让当前研究状态可公开核对，同时不能把仓库可见性误写成内容定稿或制度有效性。单列新 PUB 记录可以保留旧稿、反馈和修订之间的版本关系。
 - 后果：生成 `v0.3.0`；`main` 与 `v0.3.0` 快照分支指向同一发布提交；`Unreleased` 记录进入正式版本段；下一轮工作重新从空的 `Unreleased` 开始。
 - 未采用方案：把全库文件机械改为同一版本；把所有 `draft` 升为 `stable`；把 GitHub 发布当作知乎重发、作者逐句批准、事实核查完成或现实制度验证；覆盖历史 PUB 快照；上传 `.DS_Store`、外部附件或本机杂项。
+
+## D-033 · 固定 40 岁转行首次外部验证的上海养老护理员范围
+
+- 状态：Accepted
+- 日期：2026-08-26
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-57C2A8`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：把首次外部验证的收窄基线固定为中国大陆上海市、40 岁普通企业职工主动离职后转向养老护理员。
+- source_ids：`SRC-57C2A8D4`
+- supersedes：只解决 `D-031` 中地域与目标职业尚未确定的未决部分；不改变三方案比较、禁止现实干预、参与保护、停止线和验证状态。
+- affected_documents：`08_Research_Workbench/07_Validation_Records/External_Validation_Plans/`、`DOCUMENT_STATUS.md`、`ROADMAP.md`、`PROJECT_INDEX.md`、`CHANGELOG.md`、来源与确认记录。
+- unresolved_questions：性别、户籍、学历、住房、流动资金；直接用工、劳务派遣、居家社区或长期护理保险服务分支；零经验入口；培训、评价、工资、班次、带教、职业伤害和老年服务对象参与；邀请、补偿、存储、删除、投诉和独立复核。
+- 背景：`D-031` 已确定 40 岁转行为首次外部验证，但当时没有地域和目标职业，无法核对社保、培训、资格、用工和第三方安全。项目发起者本轮明确指定上海市普通企业职工主动辞职转向养老护理员。
+- 决定：建立 `BASE-40-SH-CARE-2026-01`，把地域固定为中国大陆上海市，把对象固定为 40 岁普通企业职工本人主动离职后转向养老护理员；继续在同一收窄情境中比较现制、现制内局部修补与 Aletheia 候选。
+- 理由：只有固定地域、原就业身份、离职方式和目标职业，现制基线与三方案比较才有共同对象；其余个人条件、用工分支、复核视角和安全程序仍须在研究材料中明示，不由本决定代为确认。
+- 后果：方案进入 `material-preparation`，不再以“地域和职业未选”为阻断；但仍为 `not-ready / validation_effect: none / planned-not-sent`。后续官方资料、复核分组和安全边界属于待审研究设计，不因本决定获得 Accepted 地位。
+- 未采用方案：把“养老护理员”视为统一低风险岗位；把培训、证书、录用和任务授权合并；把主动辞职者默认写成领取失业保险金；把后置补贴写成即时生活费；让真实老人接受未经审查的新手服务；把场景选定写成验证已经开始。
+
+## D-034 · 确认上海养老护理员首轮比较的六项研究假设
+
+- 状态：Accepted
+- 日期：2026-08-26
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-3F8A6D`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：确认原单位与最后社保缴费地在上海、普通主动辞职、零养老护理经验与相关资格、备案养老机构直接用工主线、五项个人条件作为敏感性分支，以及主线不预设就业困难人员认定。
+- source_ids：`SRC-3F8A6D12`
+- supersedes：补充 `D-033` 的比较设置，不改变上海养老护理员场景范围，不改变三方案、停止线、参与保护或验证状态。
+- affected_documents：`08_Research_Workbench/07_Validation_Records/External_Validation_Plans/`、`DOCUMENT_STATUS.md`、`ROADMAP.md`、`CHANGELOG.md`、来源与确认记录。
+- unresolved_questions：六项设置在现实上海经办、培训、评价、用工和服务对象权益材料中是否准确；各敏感性分支的实际差异；邀请、补偿、存储、删除、投诉和独立复核。
+- 背景：`D-033` 已固定地域、年龄、原就业身份、离职方式和目标职业，但外部复核仍需同一人物和时间线。项目发起者随后确认采用建议的六项研究设置。
+- 决定：以六项设置作为 `BASE-40-SH-CARE-2026-01` 首轮比较主线；性别、户籍、学历、住房、流动资金分别进入敏感性分支，就业困难人员认定另作联合资格结果，不把任何有利条件自动补入主线。
+- 理由：区分主线研究假设与敏感性变量，可以让 A、B、C 三方案面对同一处境，同时避免把政策资格、储蓄或住房优势预先送给某一方案。
+- 后果：直接用工主线和敏感性变量的组织方式不再属于作者待决定项；下一步转为经办与实践预核、参与保护和资料治理。验证仍未开始。
+- 未采用方案：把六项写成现实个人事实；把未获认定的就业困难支持填入现金流；把直接用工结论外推到全部养老护理岗位；据此发送邀请或升级验证状态。
+
+## D-035 · 确认哲学理论五项桥梁进入框架层
+
+- 状态：Accepted
+- 日期：2026-09-15
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-6E4A91B2`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：确认四类命题层级、弱者选择权、创新公共回流、劳动主体承认与冲突不可逆伤害边界进入项目理论解释层；不修改第一原则 v1.0，不确认机制参数或现实验证。
+- source_ids：`SRC-5F8A2C19`
+- supersedes：不取代 `D-030` 的第一原则冻结，不改变 `D-029` 的七条公众核心命题；只补充理论基础与制度推论之间的桥梁文档。
+- affected_documents：`03_Aletheia_Framework/哲学理论基础与制度推论.md`、`03_Aletheia_Framework/README.md`、`07_Writing/Project_Overview/项目总纲.md`、`DOCUMENT_STATUS.md`、`CHANGELOG.md`、来源与确认记录。
+- unresolved_questions：经验假设的外部证据；创新公共化的正当程序、回馈期限和开放方式；效率提升分配的参与者、比例和争议处理；弱者选择错误的合理后果边界；不可逆伤害在不同制度场景中的判定标准。
+- 背景：项目已冻结第一原则 v1.0，并完成需求归属、公共责任、机制层与 40 岁转行现制材料整理；后续讨论显示仍需要一份更清楚的理论桥梁，把价值判断、事实判断、经验假设和制度推论分开，并补足劳动承认、创新回流、弱者选择权和冲突边界。
+- 决定：新增《哲学理论基础与制度推论》，作为框架层草案保存五项桥梁。该文档只解释当前理论方向和下游推论，不把经验假设、激励分配或公共化路径写成已验证机制。
+- 理由：将这些内容单独成文，可以避免把价值判断直接写成事实，也避免让机制草案反向改写第一原则；同时补足项目中“承认劳动主体”“创新怎样从私人或协作需求回流公共需求”“弱者怎样在不完整主见中保留选择权”等缺口。
+- 后果：项目理论层增加一个新的 `draft` 入口；项目总纲和框架导航可引用该桥梁，但第一原则 v1.0 保持冻结。后续机制研究须继续说明成本、受影响者、竞争方案、停止线和可逆性。
+- 未采用方案：直接改写《第一原则.md》；把四层或五层需求的具体资源分配写成定案；把“自愿合作更稳定”当作已证明事实；把劳动效率回馈写成固定比例或法律公式；把创新公共化理解为无偿没收创造者成果。
+
+## D-036 · 发布 v0.4.0 公共研究快照
+
+- 状态：Accepted
+- 日期：2026-09-15
+- decision_owner：Project Aletheia project initiator
+- confirmed_by：Project Aletheia project initiator
+- confirmation_source：[`PCR-4E0A1F`](08_Research_Workbench/05_Provenance_and_Decision_Records/PROJECT_DECISION_CONFIRMATIONS.md)
+- confirmation_scope：确认整理 `v0.4.0` 发布包并更新到公开 GitHub 仓库；版本名称为“Aletheia 哲学理论 v0.4.0：人的主体性、公共责任与制度边界”。
+- source_ids：`SRC-4E0A1F92`
+- supersedes：不取代任何理论或机制决定；只结束本轮 `Unreleased` 发布准备，并把 `D-035` 及其导航、状态和来源记录纳入公开快照。
+- affected_documents：`VERSION.md`、`README.md`、`CHANGELOG.md`、`RELEASE_CHECKSUMS.md`、`DOCUMENT_STATUS.md`、`DECISION_LOG.md`、`08_Research_Workbench/05_Provenance_and_Decision_Records/` 及所有发布包 Markdown。
+- unresolved_questions：哲学理论桥梁的外部证据与反例测试；创新公共化和效率回馈机制；40 岁转行材料的企业、经办、实践者和受影响者复核；所有草案的作者逐段审阅与事实核查。
+- 背景：`D-035` 已补入理论桥梁，使项目在人的主体性、公共责任与制度边界之间有了独立框架入口。项目发起者要求将当前状态整理为 `v0.4.0` 并公开同步到 GitHub。
+- 决定：以 Markdown 白名单生成 `v0.4.0` 发布包；发布树排除 `.DS_Store`、外部附件全文、ZIP、AppleDouble、脚本、可执行文件和本机杂项；将 `main` 与 `v0.4.0` 快照分支更新为同一提交。
+- 理由：版本发布使理论补充、来源链和边界说明可公开核对，同时不把公开可见性误写成定稿、验证或授权。
+- 后果：生成 `v0.4.0` 发布包并更新公开仓库；`Unreleased` 记录进入正式版本段；下一轮工作重新从空的 `Unreleased` 开始。
+- 未采用方案：把第一原则 v1.0 解冻；把理论桥梁升级为已验证事实；把养老护理材料写成外部验证完成；上传 `.DS_Store`、外部附件、ZIP 或本机杂项。
 
 ## 新增决定模板
 
