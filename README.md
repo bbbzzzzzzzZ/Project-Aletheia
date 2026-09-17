@@ -10,6 +10,8 @@ updated: 2026-09-15
 
 > **Project Aletheia 研究人想怎样生活、人与人怎样共同生活，以及制度应当在什么地方介入和停下。**
 
+English readers: see [README.en.md](README.en.md). The Chinese documents remain the primary working materials; English files are public-facing translations and research summaries unless otherwise marked.
+
 `Aletheia` 取自希腊语 `ἀλήθεια`。本项目借用“揭示 / 去蔽”的意象：不是替人规定应当如何生活，而是先理解人的需要及其关系；只有确实需要共同协调时，才研究怎样让需要、责任与权力保持边界。
 
 它把自身定位为一项“文明操作系统”的基础研究，而不是一部从具体制度开始的社会法典。
